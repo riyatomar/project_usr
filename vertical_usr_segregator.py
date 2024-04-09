@@ -23,29 +23,30 @@ try:
     with open(input_file, 'r', encoding='utf-8') as file:
         input_text = file.read()
 
-    # Split the input_text into segments using the "vertical" marker
-    segments = re.split(r'vertical_', input_text)
+    # Use regular expressions to find and extract the desired sections
+    pattern = r'<sent_id=(.*?)</sent_id>'
+    matches = re.finditer(pattern, input_text, re.DOTALL)
 
-    # Process the segments to create files
-    for segment in segments[1:]:
-        # Split the segment into lines
-        lines = segment.strip().split('\n')
+    for i, match in enumerate(matches):
+        extracted_text = match.group(0)
 
-        # Get the filename from the first line
-        filename = lines[0].strip()
+        # Extract the text between "=" and ">"
+        filename_match = re.search(r'<sent_id=(.*?)>', extracted_text)
+        if filename_match:
+            filename = filename_match.group(1)
+        else:
+            # Use a default filename if the pattern is not found
+            filename = f"section_{i}"
 
-        # Get the content by joining the remaining lines
-        content = '\n'.join(lines[1:])
+        # Remove any invalid characters from the filename
+        filename = re.sub(r'[\/:*?"<>|]', '', filename)
 
-        # Create the output file path
-        output_filepath = os.path.join(output_folder, filename)
+        # Write each extracted text to a new file in the output folder
+        output_file_path = os.path.join(output_folder, f"{filename}.txt")
+        with open(output_file_path, 'w', encoding='utf-8') as output_file:
+            output_file.write(extracted_text)
 
-        # Write the content to the file
-        with open(output_filepath, 'w', encoding='utf-8') as file:
-            file.write(content)
-
-    print("Files created successfully.")
+    print(f"{i+1} sections segregated and saved into the output folder.")
 
 except Exception as e:
-    print(f"An error occurred: {str(e)}")
-    sys.exit(1)
+    print(f"Error occurred: {e}")

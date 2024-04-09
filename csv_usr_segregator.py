@@ -39,4 +39,4 @@ if current_filename is not None and current_content:
     with open(os.path.join(output_folder, current_filename + ".txt"), "w", encoding="utf-8") as output_file:
         output_file.writelines(current_content)
 
-print("Files have been saved to the output folder.")
+print("USR segregated and saved into output folder")

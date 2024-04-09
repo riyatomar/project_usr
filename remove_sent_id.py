@@ -23,6 +23,5 @@ def remove_sent_id(folder_path):
                 # Truncate the remaining content if the new content is shorter
                 file.truncate()
 
-# Example usage:
 folder_path = sys.argv[1]
 remove_sent_id(folder_path)
