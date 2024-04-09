@@ -1,7 +1,7 @@
 """ Written by Sukahda on 20/11/2023
 Given TAM dictionary, concept_label dictionary, English parallel corpus for the USRs and a USR file as input, this program extracts corresponding English TAMs and concept labels.
 To Run:
-    python3 map_concept_labels.py tam_mapping.dat H_concept-to-mrs-rels.dat eng_parallel_sents usrs.txt
+	python3 map_concept_labels.py tam_mapping.dat H_concept-to-mrs-rels.dat eng_parallel_sents usrs.txt
 """
 
 import sys
