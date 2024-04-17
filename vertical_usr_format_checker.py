@@ -124,10 +124,12 @@ if __name__ == "__main__":
         "pass_interrogative",
         "pass_yn_interrogative",
         "fragment",
+        "title",
+        "heading",
         "term",
         "sent_id"]
 
-    const_list = ["span", "nil", "conj", "disjunct", "calender", "early_late", 
+    const_list = ["span", "nil", "conj", "disjunct", "calender", "early_late", "meas",
                 "disjunction", "time_meas", "dist_meas", "mass_meas", "length_meas",
                 "rate", "fraction", "compound"]
 
