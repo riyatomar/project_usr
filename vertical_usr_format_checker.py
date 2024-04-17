@@ -111,7 +111,7 @@ def sort_lines_by_first_column(input_file_path, output_file_path):
 if __name__ == "__main__":
     # Code 1 configuration
     folder_path = sys.argv[1]  # input folder
-    output_file_path = "output.tsv"  # output file path
+    output_file_path = "format_error.tsv"  # output file path
 
     skip_keywords = [
         "affirmative",
@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
     # Code 2 configuration
     input_file_path = output_file_path
-    output_sorted_file_path = "error_file.tsv"
+    # output_sorted_file_path = "error_file.tsv"
 
     # Run Code 2
-    sort_lines_by_first_column(input_file_path, output_sorted_file_path)
+    sort_lines_by_first_column(input_file_path, output_file_path)
