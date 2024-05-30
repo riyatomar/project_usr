@@ -17,7 +17,7 @@ input_files = [f for f in os.listdir(input_folder) if os.path.isfile(os.path.joi
 for input_file in input_files:
     # Construct input and output file paths
     input_file_path = os.path.join(input_folder, input_file)
-    output_file_path = os.path.join(output_folder, f"vertical_{input_file}")
+    output_file_path = os.path.join(output_folder, f"{input_file}")
 
     with open(input_file_path, 'r', encoding='utf-8') as file:
         input_text = file.read()

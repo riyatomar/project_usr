@@ -4,22 +4,25 @@ input_file_path = sys.argv[1] # USR mergerd file
 output_file_path = sys.argv[2] # Output file after adding <sent_id>
 
 keywords1 = [
-    "affirmative",
-    "negative",
-    "yn_interrogative",
-    "interrogative",
-    "imperative",
-    "pass-affirmative",
-    "pass-negative",
-    "pass-interrogative",
-    "pass-yn_interrogative",
-    "fragment",
-    "term",
-    "heading"
+    "%affirmative",
+    "%negative",
+    "%yn_interrogative",
+    "%interrogative",
+    "%imperative",
+    "%pass_affirmative",
+    "%pass_negative",
+    "%pass_interrogative",
+    "%pass_yn_interrogative",
+    "%fragment",
+    "%term",
+    "%heading"
 ]
 
-keywords2 = ["conj", "disjunct", "meas", "span", "nil"]
-
+keywords2 = [
+        "*span", "*nil", "*conj", "*disjunct", "*calender", "*early_late", 
+        "*disjunction", "*time_meas", "*dist_meas", "*mass_meas", "*length_meas",
+        "*rate", "*fraction", "*compound"
+    ]
 # keywords1 = [keyword.lower() for keyword in keywords1]
 # keywords2 = [keyword.lower() for keyword in keywords2]
 
