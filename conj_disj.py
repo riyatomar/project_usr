@@ -1,7 +1,8 @@
+import os
 import re
+import glob
 
 def process_text(text):
-
     lines = text.strip().split('\n')
     content_lines = []
     conj_lines = []
@@ -13,8 +14,20 @@ def process_text(text):
     index_info = {}
     max_index = 0
     record_content = False
+    sent_id_open = None
+    sent_id_close = None
+    asterisk_lines = []
 
     for line in lines:
+        if line.startswith('<sent_id='):
+            content_lines.append(line)
+            sent_id_open = line
+            record_content = False
+            continue
+        if line.startswith('</sent_id>'):
+            sent_id_close = line
+            record_content = False
+            continue
         if line.startswith('#'):
             content_lines.append(line)
             record_content = True
@@ -24,6 +37,7 @@ def process_text(text):
             record_content = False
             continue
         if line.startswith('*'):
+            asterisk_lines.append(line)
             conj_match = re.findall(r'conj:\[([^\]]+)\]', line)
             disjunct_match = re.findall(r'disjunct:\[([^\]]+)\]', line)
             other_match = re.findall(r'(compound:[^\]]+\])', line)
@@ -51,6 +65,7 @@ def process_text(text):
     for indices in conj_indices:
         for idx, i in enumerate(indices):
             op_labels[i] = f"\t{conj_index}:op{idx + 1}"
+            # print(op_labels[i])
         conj_index += 1
 
     disjunct_index = next_index_conj + len(conj_indices)
@@ -61,19 +76,26 @@ def process_text(text):
 
     final_lines = []
     for line in content_lines:
+        # print(content_lines)
         match = re.search(r'\s+(\d+)\s+', line)
         if match:
             index = int(match.group(1))
+            # print(index)
             if index in op_labels:
+                # print(op_labels)
                 line += f' {op_labels[index]}'
                 parts = line.split()
-                parts[4] = '-'
+                # parts[4] = '-'
+                parts.pop(4)
                 line = '\t'.join(parts)
-
-        columns = line.split()
-        while len(columns) < 9:
-            columns.append('-')
-        final_lines.append('\t'.join(columns))
+                # print(line)
+        if line.startswith('<sent_id=') or line.startswith('#'):
+            final_lines.append(line)
+        else:
+            columns = line.split()
+            while len(columns) < 9:
+                columns.append('-')
+            final_lines.append('\t'.join(columns))
 
     for i, conj in enumerate(conj_indices):
         first_conj_index = conj[0]
@@ -87,23 +109,42 @@ def process_text(text):
 
     final_lines.extend(conj_lines)
     final_lines.extend(disjunct_lines)
-    final_lines.extend(percent_lines)
+    
+    if percent_lines:
+        final_lines.extend(percent_lines)
+        
+    if asterisk_lines:
+        final_lines.extend(asterisk_lines)
+        
+    if sent_id_close:
+        final_lines.append(sent_id_close)
 
     if other_lines:
         final_lines.append(' '.join(other_lines))
 
     return final_lines
 
-def main(input_file, output_file):
-    with open(input_file, 'r', encoding='utf-8') as infile:
-        text = infile.read()
+def process_files(input_folder, output_folder):
+    input_files = glob.glob(os.path.join(input_folder, '*'))
+    
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
-    content = process_text(text)
+    for input_file in input_files:
+        with open(input_file, 'r', encoding='utf-8') as infile:
+            text = infile.read()
 
-    with open(output_file, 'w', encoding='utf-8') as outfile:
-        for line in content:
-            outfile.write(line + '\n')
+        content = process_text(text)
 
-input_file = '/home/riya/project_usr/input/1'
-output_file = '/home/riya/project_usr/output/1'
-main(input_file, output_file)
+        output_file = os.path.join(output_folder, os.path.basename(input_file))
+        
+        with open(output_file, 'w', encoding='utf-8') as outfile:
+            for line in content:
+                if line.startswith('<sent_id=') or line.startswith('#'):
+                    outfile.write(line + '\n')
+                else:
+                    outfile.write(line + '\n')
+
+input_folder = 'cp_output'
+output_folder = '/home/riya/project_usr/final_output'
+process_files(input_folder, output_folder)
