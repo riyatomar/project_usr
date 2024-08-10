@@ -150,5 +150,5 @@ def process_files_in_folder(input_folder, output_folder):
         process_file(input_file, output_file)
 
 input_folder = '/home/riya/project_usr/compound_outputs'
-output_folder = '/home/riya/project_usr/cp_output'
+output_folder = '/home/riya/project_usr/cp_outputs'
 process_files_in_folder(input_folder, output_folder)
