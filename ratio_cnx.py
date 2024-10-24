@@ -187,7 +187,7 @@ def process_all_files(input_folder, output_folder):
         process_file(input_file, output_file)
 
 # Define your input and output folders
-input_folder = 'cp_outputs'
+input_folder = 'comp_outputs'
 output_folder = 'ratio_outputs'
 
 # Process all files

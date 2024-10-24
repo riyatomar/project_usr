@@ -72,7 +72,7 @@ def convert_lines_to_sublists(lines):
 
 def find_compound_line(lines):
     for i, line in enumerate(lines):
-        if '*' in line and 'compound' in line:
+        if '*' in line and ('compound' in line or '7-bahubrIhi' in line):
             return i, line
     return None, None
 
