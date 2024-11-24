@@ -1,0 +1,2061 @@
+<document id="id_0.760261887887">
+<head>
+<title></title>
+<caption></caption>
+<language>Hindi</language>
+<author>
+<firstname></firstname>
+<lastname></lastname>
+</author>
+<creation>
+<raw_corpus creation_date="" institute_name="">
+<annotated_corpus creation_date="01/10/2014" institute_name="IIIT-Hyderabad">
+</creation>
+<domain_name>Conversation Data </domain_name>
+<source>Hindi Sahithya Blog</source>
+<publication>
+<url>http://nandlalbharati.blog.co.in/</url>
+</publication>
+<project_description>NSF Hindi/Urdu Dependency Treebanking Project</project_description>
+<availability>
+<format>CML/SSF</format>
+</availability>
+<byte_count>24317</byte_count>
+<word_count>843</word_count>
+<edition_number>1.0</edition_number>
+<encoding_description>
+<original_encoding>ISO 8859</original_encoding>
+<new_encoding>Unicode UTF8</new_encoding>
+</encoding_description>
+<bibliography></bibliography>
+<sentence_marker>।</sentence_marker>
+<normalization>No</normalization>
+<utility_name>cml_tags</utility_name>
+
+</head>
+<body>
+<tb number="1" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='1'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ऑस्ट्रेलियाई	JJ	<fs af='ऑस्ट्रेलियाई,n,f,sg,3,d,0,0' name='ऑस्ट्रेलियाई'>|<fs af='ऑस्ट्रेलियाई,n,f,sg,3,o,0,0'>
+1.2	क्रिकेट	NNPC	<fs af='क्रिकेट,n,m,sg,3,d,0,0' name='क्रिकेट'>|<fs af='क्रिकेट,n,m,pl,3,d,0,0'>|<fs af='क्रिकेट,n,m,sg,3,o,0,0'>|<fs af='क्रिकेट,n,m,pl,3,o,0,0'>
+1.3	बोर्ड	NNP	<fs af='बोर्ड,n,m,sg,3,d,0,0' name='बोर्ड'>|<fs af='बोर्ड,n,m,pl,3,d,0,0'>|<fs af='बोर्ड,n,m,sg,3,o,0,0'>
+	))
+2	((	NP	<fs name='NP2' drel='rs:NP'>
+2.1	(	SYM	<fs af='&rcbrs;,punc,,,,,,' name='('>
+2.2	सीए	NNP	<fs af='सीया,n,m,pl,,d,0,0' name='सीए'>|<fs af='सीया,n,m,sg,,o,0,0'>
+2.3	)	SYM	<fs af='&lcbrs;,punc,,,,,,' name=')'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGNN'>
+3.1	फवाद	NNP	<fs af='फवाद,unk,,,,,,' name='फवाद'>
+3.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+4	((	NP	<fs name='NP4' drel='k7:VGNN'>
+4.1	टीम	NN	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+4.2	मे	PSP	<fs af='मा,n,m,pl,3,d,0,0' name='मे'>|<fs af='मा,n,m,sg,3,o,0,0'>
+	))
+5	((	JJP	<fs name='JJP' drel='pof:VGNN'>
+5.1	शामिल	JJ	<fs af='शामिल,adj,any,any,,any,,' name='शामिल'>
+	))
+6	((	VGNN	<fs name='VGNN' drel='k2:VGNF'>
+6.1	करने	VM	<fs af='कर,v,m,pl,any,,ना,nA' name='करने'>
+6.2	को	PSP	<fs af='को,psp,,,,,,' name='को2'>
+	))
+7	((	VGNF	<fs name='VGNF' drel='vmod:VGF'>
+7.1	लेकर	PSP	<fs af='लेकर,psp,,,,,,' name='लेकर'>|<fs af='ले,v,any,any,any,,कर,kara'>
+	))
+8	((	NP	<fs name='NP5' drel='adv:VGF'>
+8.1	इस	DEM	<fs af='यह,pn,any,sg,3,o,0,0' name='इस'>|<fs af='यह,pn,any,sg,3,o,0,0'>
+8.2	कदर	NN	<fs af='कदर,n,m,sg,3,d,0,0' name='कदर'>|<fs af='कदर,n,m,pl,3,d,0,0'>|<fs af='कदर,n,m,sg,3,o,0,0'>
+	))
+9	((	JJP	<fs name='JJP2' drel='k1s:VGF'>
+9.1	उत्साहित	JJ	<fs af='उत्साहित,n,m,sg,3,d,0,0' name='उत्साहित'>|<fs af='उत्साहित,n,m,pl,3,d,0,0'>|<fs af='उत्साहित,n,m,sg,3,o,0,0'>|<fs af='उत्साहित,adj,any,any,,any,,'>
+	))
+10	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+10.1	है	VM	<fs af='है,v,any,sg,2,,है,hE' name='है'>|<fs af='है,v,any,sg,3,,है,hE'>
+	))
+11	((	CCP	<fs name='CCP' drel='rs:NP5'>
+11.1	कि	CC	<fs af='कि,avy,,,,,,' name='कि'>
+	))
+12	((	NP	<fs name='NP6' drel='k1:VGF2'>
+12.1	बोर्ड	NN	<fs af='बोर्ड,n,m,sg,3,d,0,0' name='बोर्ड2'>|<fs af='बोर्ड,n,m,pl,3,d,0,0'>|<fs af='बोर्ड,n,m,sg,3,o,0,0'>
+12.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+13	((	NP	<fs name='NP7' drel='nmod:NP8'>
+13.1	आव्रजन	NNC	<fs af='आव्रजन,n,f,sg,3,d,0,0' name='आव्रजन'>|<fs af='आव्रजन,n,f,sg,3,o,0,0'>
+13.2	मंत्री	NN	<fs af='मंत्री,n,m,sg,3,d,0,0' name='मंत्री'>|<fs af='मंत्री,n,m,pl,3,d,0,0'>|<fs af='मंत्री,n,m,sg,3,o,0,0'>
+	))
+14	((	NP	<fs name='NP8' drel='k4:VGF2'>
+14.1	ब्रेडन	NNPC	<fs af='ब्रेडन,unk,,,,,,' name='ब्रेडन'>
+14.2	ओ	NNPC	<fs af='ओ,avy,,,,,,' name='ओ'>
+14.3	कोनोर	NNP	<fs af='कोनोर,unk,,,,,,' name='कोनोर'>
+14.4	को	PSP	<fs af='को,psp,,,,,,' name='को3'>
+	))
+15	((	NP	<fs name='NP9' drel='k2:VGNF2'>
+15.1	पत्र	NN	<fs af='पत्र,n,m,sg,3,d,0,0' name='पत्र'>|<fs af='पत्र,n,m,pl,3,d,0,0'>|<fs af='पत्र,n,m,sg,3,o,0,0'>
+	))
+16	((	VGNF	<fs name='VGNF2' drel='vmod:VGNN2'>
+16.1	लिखकर	VM	<fs af='लिख,v,any,any,any,,कर,kara' name='लिखकर'>
+	))
+17	((	RBP	<fs name='RBP' drel='adv:VGNN2'>
+17.1	जल्द	RBC	<fs af='जल्द,adj,any,any,,any,,' name='जल्द'>
+17.2	से	RP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+17.3	जल्द	RB	<fs af='जल्द,adj,any,any,,any,,' name='जल्द2'>
+	))
+18	((	NP	<fs name='NP10' drel='r6:NP20'>
+18.1	इस	DEM	<fs af='यह,pn,any,sg,3,o,0,0' name='इस2'>|<fs af='यह,pn,any,sg,3,o,0,0'>
+18.2	पाकिस्तानी	JJ	<fs af='पाकिस्तानी,adj,f,any,,any,,' name='पाकिस्तानी'>
+18.3	मूल	NN	<fs af='मूल,n,m,sg,3,d,0,0' name='मूल'>|<fs af='मूल,n,m,pl,3,d,0,0'>|<fs af='मूल,n,m,sg,3,o,0,0'>
+18.4	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+19	((	NP	<fs name='NP11' drel='k4:VGNN2'>
+19.1	खिलाड़ी	NN	<fs af='खिलाडी,n,m,sg,,d,0,0' name='खिलाड़ी'>|<fs af='खिलाडी,n,m,pl,,d,0,0'>|<fs af='खिलाडी,n,m,sg,,o,0,0'>
+19.2	को	PSP	<fs af='को,psp,,,,,,' name='को4'>
+	))
+20	((	NP	<fs name='NP12' drel='r6:NP20'>
+20.1	ऑस्ट्रेलिया	NNP	<fs af='ऑस्ट्रेलिया,n,m,sg,3,d,0,0' name='ऑस्ट्रेलिया'>
+20.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+21	((	NP	<fs name='NP13' drel='k2:VGNN2'>
+21.1	नागरिकता	NN	<fs af='नागरिकता,n,f,sg,3,d,0,0' name='नागरिकता'>|<fs af='नागरिकता,n,f,pl,3,d,0,0'>|<fs af='नागरिकता,n,f,sg,3,o,0,0'>|<fs af='नागरिकता,n,f,pl,3,o,0,0'>
+	))
+22	((	VGNN	<fs name='VGNN2' drel='r6-k2:NP14'>
+22.1	देने	VM	<fs af='दे,v,m,pl,any,,ना,nA' name='देने'>
+22.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की2'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+23	((	NP	<fs name='NP14' drel='pof:VGF2'>
+23.1	अपील	NN	<fs af='अपील,n,m,sg,3,d,0,0' name='अपील'>|<fs af='अपील,n,m,pl,3,d,0,0'>|<fs af='अपील,n,m,sg,3,o,0,0'>
+	))
+24	((	VGF	<fs name='VGF2' voicetype='active' stype='declarative' drel='ccof:CCP'>
+24.1	की	VM	<fs af='का,psp,f,sg,,d,का,kA' name='की3'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+24.2	थी	VAUX	<fs af='था,v,f,sg,any,,था,WA' name='थी'>
+	))
+25	((	CCP	<fs name='CCP2' drel='vmod:VGF2'>
+25.1	ताकि	CC	<fs af='ताकि,avy,,,,,,' name='ताकि'>
+	))
+26	((	NP	<fs name='NP15' drel='k7t:VGNF3'>
+26.1	जुलाई	NNP	<fs af='जुलाई,n,f,sg,3,d,0,0' name='जुलाई'>|<fs af='जुलाई,n,f,pl,3,d,0,0'>|<fs af='जुलाई,n,f,sg,3,o,0,0'>|<fs af='जुलाई,n,f,pl,3,o,0,0'>|<fs af='जुला,v,f,sg,any,,या,yA'>
+26.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+27	((	NP	<fs name='NP16' drel='k7p:VGNF3'>
+27.1	इंग्लैंड	NNP	<fs af='इंग्लैंड,n,m,sg,3,d,0,0' name='इंग्लैंड'>|<fs af='इंग्लैंड,n,m,pl,3,d,0,0'>|<fs af='इंग्लैंड,n,m,sg,3,o,0,0'>
+27.2	में	PSP	<fs af='में,psp,,,,,,' name='में2'>
+	))
+28	((	NP	<fs name='NP17' drel='pof:VGNF3'>
+28.1	शुरू	NN	<fs af='शुरू,avy,,,,,,' name='शुरू'>
+	))
+29	((	VGNF	<fs name='VGNF3' drel='nmod__k1inv:NP18'>
+29.1	हो	VM	<fs af='हो,v,any,any,any,,0,0' name='हो'>|<fs af='हो,v,any,sg,2,,एं,e'>|<fs af='हो,v,any,sg,3,,ए,e'>|<fs af='है,v,any,pl,2,,है,hE'>
+29.2	रही	VAUX	<fs af='रह,v,f,sg,any,,या,yA' name='रही'>
+	))
+30	((	NP	<fs name='NP18' drel='k7t:VGF3'>
+30.1	एशेज	NNP	<fs af='एशेज,unk,,,,,,' name='एशेज'>
+30.2	सीरीज	NN	<fs af='सीरीज,n,f,sg,3,d,0,0' name='सीरीज'>|<fs af='सीरीज,n,f,sg,3,o,0,0'>
+30.3	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से2'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+30.4	पहले	NST	<fs af='पहले,adv,,,,,,' name='पहले'>|<fs af='पहले,avy,,,,,,'>|<fs af='पहले,psp,,,,,,'>|<fs af='पहला,adj,m,sg,,o,,'>|<fs af='पहला,adj,m,pl,,d,,'>|<fs af='पहला,adj,m,pl,,o,,'>
+	))
+31	((	NP	<fs name='NP19' drel='k1:VGF3'>
+31.1	फवाद	NNP	<fs af='फवाद,unk,,,,,,' name='फवाद2'>
+	))
+32	((	NP	<fs name='NP20' drel='rt:VGF3'>
+32.1	चयन	NN	<fs af='चयन,n,m,sg,3,d,0,0' name='चयन'>|<fs af='चयन,n,m,pl,3,d,0,0'>|<fs af='चयन,n,m,sg,3,o,0,0'>|<fs af='चयन,n,m,pl,3,o,0,0'>
+32.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के2'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+32.3	लिए	PSP	<fs af='लिए,psp,,,,,,' name='लिए'>|<fs af='ले,v,m,pl,any,,या,yA'>
+	))
+33	((	JJP	<fs name='JJP3' drel='pof:VGF3'>
+33.1	उपलब्ध	JJ	<fs af='उपलब्ध,adj,any,any,,any,,' name='उपलब्ध'>
+	))
+34	((	VGF	<fs name='VGF3' voicetype='active' stype='declarative' drel='ccof:CCP2'>
+34.1	हो	VM	<fs af='हो,v,any,any,any,,0,0' name='हो2'>|<fs af='हो,v,any,sg,2,,एं,e'>|<fs af='हो,v,any,sg,3,,ए,e'>|<fs af='है,v,any,pl,2,,है,hE'>
+34.2	सके	VAUX	<fs af='सक,v,any,sg,2,,एं,e' name='सके'>|<fs af='सक,v,any,sg,3,,ए,e'>|<fs af='सक,v,m,pl,any,,या,yA'>
+34.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="2" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='2'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ऑस्ट्रेलिया	NNP	<fs af='ऑस्ट्रेलिया,n,m,sg,3,d,0,0' name='ऑस्ट्रेलिया'>
+1.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	टॉप	JJ	<fs af='टॉप,n,m,sg,3,d,0,0' name='टॉप'>|<fs af='टॉप,n,m,pl,3,d,0,0'>|<fs af='टॉप,n,m,sg,3,o,0,0'>|<fs af='टॉप,adj,any,any,,any,,'>
+2.2	स्पिनरों	NN	<fs af='स्पिनरों,unk,,,,,,' name='स्पिनरों'>
+2.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+3	((	NP	<fs name='NP3' drel='k7p:VGF'>
+3.1	भारत	NNP	<fs af='भारत,n,m,sg,3,d,0,0' name='भारत'>|<fs af='भारत,n,m,pl,3,d,0,0'>|<fs af='भारत,n,m,sg,3,o,0,0'>|<fs af='भारत,n,m,pl,3,o,0,0'>
+3.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+4	((	RBP	<fs name='RBP' drel='adv:VGF'>
+4.1	जमकर	RB	<fs af='जम,v,any,any,any,,कर,kara' name='जमकर'>
+	))
+5	((	NP	<fs name='NP4' drel='pof:VGF'>
+5.1	कुटाई	NN	<fs af='कुटाई,n,f,sg,3,d,0,0' name='कुटाई'>|<fs af='कुटाई,n,f,pl,3,d,0,0'>|<fs af='कुटाई,n,f,sg,3,o,0,0'>|<fs af='कुटाई,n,f,pl,3,o,0,0'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+6.1	हुई	VM	<fs af='हो,v,f,sg,any,,या,yA' name='हुई'>
+6.2	थी	VAUX	<fs af='था,v,f,sg,any,,था,WA' name='थी'>
+6.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="3" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='3'>
+1	((	NP	<fs name='NP' drel='k7t:VGNF'>
+1.1	अब	PRP	<fs af='अब,adv,,,,,,' name='अब'>
+	))
+2	((	VGNF	<fs name='VGNF' drel='nmod__k1inv:NP2'>
+2.1	डरा	VM	<fs af='डरा,v,any,any,any,,0,0' name='डरा'>|<fs af='डर,v,m,sg,any,,या,yA'>
+	))
+3	((	NP	<fs name='NP2' drel='k1:VGF'>
+3.1	ऑस्ट्रेलियाई	JJ	<fs af='ऑस्ट्रेलियाई,n,f,sg,3,d,0,0' name='ऑस्ट्रेलियाई'>|<fs af='ऑस्ट्रेलियाई,n,f,sg,3,o,0,0'>
+3.2	बोर्ड	NN	<fs af='बोर्ड,n,m,sg,3,d,0,0' name='बोर्ड'>|<fs af='बोर्ड,n,m,pl,3,d,0,0'>|<fs af='बोर्ड,n,m,sg,3,o,0,0'>
+	))
+4	((	NP	<fs name='NP3' drel='k2:VGF'>
+4.1	फवाद	NNP	<fs af='फवाद,unk,,,,,,' name='फवाद'>
+4.2	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+5	((	NP	<fs name='NP4' drel='pof:VGF'>
+5.1	उम्मीद	NN	<fs af='उम्मीद,n,f,sg,3,d,0,0' name='उम्मीद'>|<fs af='उम्मीद,n,f,sg,3,o,0,0'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+6.1	लगाए	VM	<fs af='लगा,v,any,sg,2,,एं,e' name='लगाए'>|<fs af='लगा,v,any,sg,3,,ए,e'>|<fs af='लगा,v,m,pl,any,,या,yA'>
+6.2	हुए	VAUX	<fs af='हो,v,m,pl,any,,या,yA' name='हुए'>
+6.3	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>|<fs af='है,v,any,sg,3,,है,hE'>
+6.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="4" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='4'>
+1	((	NP	<fs name='NP' drel='nmod:NP2'>
+1.1	पूर्व	JJ	<fs af='पूर्व,adj,any,any,,any,,' name='पूर्व'>|<fs af='पूर्व,n,m,sg,3,d,0,0'>|<fs af='पूर्व,n,m,pl,3,d,0,0'>|<fs af='पूर्व,n,m,sg,3,o,0,0'>|<fs af='पूर्व,n,m,pl,3,o,0,0'>
+1.2	क्रिकेटर	NN	<fs af='क्रिकेटर,n,m,sg,3,d,0,0' name='क्रिकेटर'>|<fs af='क्रिकेटर,n,m,pl,3,d,0,0'>|<fs af='क्रिकेटर,n,m,sg,3,o,0,0'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	डेमियन	NNPC	<fs af='डेमियन,unk,,,,,,' name='डेमियन'>
+2.2	मार्टिन	NNP	<fs af='मार्टिन,n,m,sg,3,d,0,0' name='मार्टिन'>|<fs af='मार्टिन,n,m,pl,3,d,0,0'>|<fs af='मार्टिन,n,m,sg,3,o,0,0'>
+2.3	तो	RP	<fs af='तो,avy,,,,,,' name='तो'>|<fs af='तो,psp,,,,,,'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGF'>
+3.1	फवाद	NNP	<fs af='फवाद,unk,,,,,,' name='फवाद'>
+3.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+4	((	NP	<fs name='NP4' drel='r6:NP5'>
+4.1	शेन	NNPC	<fs af='शेन,unk,,,,,,' name='शेन'>
+4.2	वार्न	NNP	<fs af='वार्न,unk,,,,,,' name='वार्न'>
+4.3	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+5	((	NP	<fs name='NP5' drel='k2s:VGF'>
+5.1	उत्तराधिकारी	NN	<fs af='उत्तराधिकारी,n,m,sg,3,d,0,0' name='उत्तराधिकारी'>|<fs af='उत्तराधिकारी,n,m,pl,3,d,0,0'>|<fs af='उत्तराधिकारी,n,m,sg,3,o,0,0'>
+5.2	तक	RP	<fs af='तक,avy,,,,,,' name='तक'>|<fs af='तक,psp,,,,,,'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+6.1	बता	VM	<fs af='बता,v,any,any,any,,0,0' name='बता'>
+6.2	चुके	VAUX	<fs af='चुक,v,any,sg,2,,एं,e' name='चुके'>|<fs af='चुक,v,any,sg,3,,ए,e'>|<fs af='चुक,v,m,pl,any,,या,yA'>
+6.3	हैं	VAUX	<fs af='है,v,any,pl,1,,है,hE' name='हैं'>|<fs af='है,v,any,pl,3,,है,hE'>
+6.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="5" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='5'>
+1	((	NP	<fs name='NP' drel='sent-adv:VGF'>
+1.1	वहीं	PRP	<fs af='वहीं,adv,,,,,,' name='वहीं'>
+	))
+2	((	NP	<fs name='NP2' drel='nmod:NP8'>
+2.1	पूर्व	JJ	<fs af='पूर्व,adj,any,any,,any,,' name='पूर्व'>|<fs af='पूर्व,n,m,sg,3,d,0,0'>|<fs af='पूर्व,n,m,pl,3,d,0,0'>|<fs af='पूर्व,n,m,sg,3,o,0,0'>|<fs af='पूर्व,n,m,pl,3,o,0,0'>
+2.2	स्पिनर	NN	<fs af='स्पिनर,unk,,,,,,' name='स्पिनर'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	स्टुअर्ट	NNPC	<fs af='स्टुअर्ट,unk,,,,,,' name='स्टुअर्ट'>
+3.2	मैकगिल	NNP	<fs af='मैकगिल,unk,,,,,,' name='मैकगिल'>
+3.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+4	((	NP	<fs name='NP4' drel='k7:VGF'>
+4.1	फवाद	NNP	<fs af='फवाद,unk,,,,,,' name='फवाद'>
+4.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+5	((	NP	<fs name='NP5' drel='r6:NP8'>
+5.1	टीम	NNPC	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+5.2	इंडिया	NNP	<fs af='इंडिया,n,m,sg,3,d,0,0' name='इंडिया'>|<fs af='इंडिया,n,m,sg,3,d,0,0'>|<fs af='इंडिया,n,m,pl,3,d,0,0'>|<fs af='इंडिया,n,m,sg,3,o,0,0'>
+5.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+6	((	NP	<fs name='NP6' drel='nmod:NP8'>
+6.1	दिग्गज	NN	<fs af='दिग्गज,n,m,sg,3,d,0,0' name='दिग्गज'>|<fs af='दिग्गज,n,m,pl,3,d,0,0'>|<fs af='दिग्गज,n,m,sg,3,o,0,0'>
+	))
+7	((	NP	<fs name='NP7' drel='r6-k2:NP8'>
+7.1	अनिल	NNPC	<fs af='अनिल,n,m,sg,3,d,0,0' name='अनिल'>|<fs af='अनिल,n,m,pl,3,d,0,0'>|<fs af='अनिल,n,m,sg,3,o,0,0'>|<fs af='अनिल,n,m,pl,3,o,0,0'>
+7.2	कुंबले	NNP	<fs af='कुंबले,unk,,,,,,' name='कुंबले'>
+7.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+8	((	NP	<fs name='NP8' drel='pof:VGF'>
+8.1	झलक	NN	<fs af='झलक,n,f,sg,3,d,0,0' name='झलक'>|<fs af='झलक,n,f,pl,3,d,0,0'>|<fs af='झलक,n,f,sg,3,o,0,0'>|<fs af='झलक,n,f,pl,3,o,0,0'>|<fs af='झलक,v,any,any,any,,0,0'>
+	))
+9	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+9.1	दिख	VM	<fs af='दिख,v,any,any,any,,0,0' name='दिख'>
+9.2	रही	VAUX	<fs af='रह,v,f,sg,any,,या,yA' name='रही'>
+9.3	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>|<fs af='है,v,any,sg,3,,है,hE'>
+9.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="6" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='6'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ऑस्ट्रेलियाई	JJ	<fs af='ऑस्ट्रेलियाई,n,f,sg,3,d,0,0' name='ऑस्ट्रेलियाई'>|<fs af='ऑस्ट्रेलियाई,n,f,sg,3,o,0,0'>
+1.2	सरकार	NN	<fs af='सरकार,n,f,sg,3,d,0,0' name='सरकार'>|<fs af='सरकार,n,f,sg,3,o,0,0'>
+1.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+1.4	भी	RP	<fs af='भी,adv,,,,,,' name='भी'>|<fs af='भी,adv,,,,,,'>|<fs af='भी,avy,,,,,,'>|<fs af='भी,psp,,,,,,'>
+	))
+2	((	NP	<fs name='NP2' drel='k7:VGNF'>
+2.1	टीम	NN	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+2.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGNF'>
+3.1	उपयोगिता	NN	<fs af='उपयोगिता,n,f,sg,3,d,0,0' name='उपयोगिता'>|<fs af='उपयोगिता,n,f,pl,3,d,0,0'>|<fs af='उपयोगिता,n,f,sg,3,o,0,0'>|<fs af='उपयोगिता,n,f,pl,3,o,0,0'>
+3.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+4	((	VGNF	<fs name='VGNF' drel='vmod:VGF'>
+4.1	देखते	VM	<fs af='देख,v,m,pl,any,,ता,wA' name='देखते'>
+4.2	हुए	VAUX	<fs af='हो,v,m,pl,any,,या,yA' name='हुए'>
+	))
+5	((	NP	<fs name='NP4' drel='k7:VGNF2'>
+5.1	नियमों	NN	<fs af='नियम,n,m,pl,3,o,0,0' name='नियमों'>
+5.2	में	PSP	<fs af='में,psp,,,,,,' name='में2'>
+	))
+6	((	NP	<fs name='NP5' drel='pof:VGNF2'>
+6.1	बदलाव	NN	<fs af='बदलाव,n,m,sg,3,d,0,0' name='बदलाव'>|<fs af='बदलाव,n,m,pl,3,d,0,0'>|<fs af='बदलाव,n,m,sg,3,o,0,0'>
+6.2	तक	RP	<fs af='तक,avy,,,,,,' name='तक'>|<fs af='तक,psp,,,,,,'>
+	))
+7	((	VGNF	<fs name='VGNF2' drel='vmod:VGF'>
+7.1	करते	VM	<fs af='कर,v,m,pl,any,,ता,wA' name='करते'>
+7.2	हुए	VAUX	<fs af='हो,v,m,pl,any,,या,yA' name='हुए2'>
+	))
+8	((	NP	<fs name='NP6' drel='k2:VGF'>
+8.1	फवाद	NNP	<fs af='फवाद,unk,,,,,,' name='फवाद'>
+8.2	को	PSP	<fs af='को,psp,,,,,,' name='को2'>
+	))
+9	((	NP	<fs name='NP7' drel='pof:VGF'>
+9.1	नागरिकता	NN	<fs af='नागरिकता,n,f,sg,3,d,0,0' name='नागरिकता'>|<fs af='नागरिकता,n,f,pl,3,d,0,0'>|<fs af='नागरिकता,n,f,sg,3,o,0,0'>|<fs af='नागरिकता,n,f,pl,3,o,0,0'>
+	))
+10	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+10.1	दे	VM	<fs af='दे,v,any,any,any,,0,0' name='दे'>|<fs af='दे,v,any,sg,2,,एं,e'>|<fs af='दे,v,any,sg,3,,ए,e'>|<fs af='दा,n,m,pl,3,d,0,0'>|<fs af='दा,n,m,sg,3,o,0,0'>
+10.2	दी	VAUX	<fs af='दे,v,f,sg,any,,या,yA' name='दी'>
+10.3	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>|<fs af='है,v,any,sg,3,,है,hE'>
+10.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="7" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='7'>
+1	((	NP	<fs name='NP' drel='sent-adv:VGF'>
+1.1	इस	DEM	<fs af='यह,pn,any,sg,3,o,0,0' name='इस'>|<fs af='यह,pn,any,sg,3,o,0,0'>
+1.2	तरह	NN	<fs af='तरह,n,m,sg,3,d,0,0' name='तरह'>|<fs af='तरह,n,m,pl,3,d,0,0'>|<fs af='तरह,n,m,sg,3,o,0,0'>|<fs af='तरह,psp,,,,,,'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	फवाद	NNP	<fs af='फवाद,unk,,,,,,' name='फवाद'>
+2.2	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+3	((	NP	<fs name='NP3' drel='k7:VGNN'>
+3.1	ऐशेज	NNP	<fs af='ऐशेज,unk,,,,,,' name='ऐशेज'>
+3.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+4	((	VGNN	<fs name='VGNN' drel='r6:NP4'>
+4.1	खेलने	VM	<fs af='खेल,v,m,pl,any,,ना,nA' name='खेलने'>
+4.2	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का2'>
+	))
+5	((	NP	<fs name='NP4' drel='k1:VGF'>
+5.1	रास्ता	NN	<fs af='रास्ता,n,m,sg,3,d,0,0' name='रास्ता'>
+	))
+6	((	JJP	<fs name='JJP' drel='pof:VGF'>
+6.1	साफ	JJ	<fs af='साफ,n,m,sg,3,d,0,0' name='साफ'>|<fs af='साफ,n,m,pl,3,d,0,0'>|<fs af='साफ,n,m,sg,3,o,0,0'>|<fs af='साफ,n,m,pl,3,o,0,0'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	हो	VM	<fs af='हो,v,any,any,any,,0,0' name='हो'>|<fs af='हो,v,any,sg,2,,एं,e'>|<fs af='हो,v,any,sg,3,,ए,e'>|<fs af='है,v,any,pl,2,,है,hE'>
+7.2	गया	VAUX	<fs af='गया,unk,,,,,,' name='गया'>
+7.3	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>|<fs af='है,v,any,sg,3,,है,hE'>
+7.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="8" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='8'>
+1	((	CCP	<fs name='CCP'>
+1.1	हालाकि	CC	<fs af='हालाकि,unk,,,,,,' name='हालाकि'>
+	))
+2	((	NP	<fs name='NP' drel='k7t:VGF'>
+2.1	इस	DEM	<fs af='यह,pn,any,sg,3,o,0,0' name='इस'>|<fs af='यह,pn,any,sg,3,o,0,0'>
+2.2	समय	NN	<fs af='समय,n,m,sg,3,d,0,0' name='समय'>|<fs af='समय,n,m,pl,3,d,0,0'>|<fs af='समय,n,m,sg,3,o,0,0'>|<fs af='समय,n,m,pl,3,o,0,0'>
+	))
+3	((	NP	<fs name='NP2' drel='k2:VGF'>
+3.1	फवाद	NNP	<fs af='फवाद,unk,,,,,,' name='फवाद'>
+3.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+4	((	NP	<fs name='NP3' drel='r6:NP4'>
+4.1	ऑस्ट्रेलिया	NNPC	<fs af='ऑस्ट्रेलिया,n,m,sg,3,d,0,0' name='ऑस्ट्रेलिया'>
+4.2	ए	NNP	<fs af='ए,avy,,,,,,' name='ए'>
+4.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+5	((	NP	<fs name='NP4' drel='rt:VGF'>
+5.1	अफ्रीका	NNP	<fs af='अफ्रीका,n,f,sg,3,d,0,0' name='अफ्रीका'>|<fs af='अफ्रीका,n,f,pl,3,d,0,0'>|<fs af='अफ्रीका,n,f,sg,3,o,0,0'>|<fs af='अफ्रीका,n,f,pl,3,o,0,0'>|<fs af='अफ्रीका,n,m,sg,3,d,0,0'>
+5.2	दौरे	NN	<fs af='दौरा,n,m,pl,3,d,0,0' name='दौरे'>|<fs af='दौरा,n,m,sg,3,o,0,0'>
+5.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के2'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+5.4	लिए	PSP	<fs af='लिए,psp,,,,,,' name='लिए'>|<fs af='ले,v,m,pl,any,,या,yA'>
+	))
+6	((	NP	<fs name='NP5' drel='k7:VGF'>
+6.1	टीम	NN	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+6.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+7.1	लिया	VM	<fs af='ले,v,m,sg,any,,या,yA' name='लिया'>
+7.2	जा	VAUX	<fs af='जा,v,any,any,any,,0,0' name='जा'>
+7.3	चुका	VAUX	<fs af='चुका,v,any,any,any,,0,0' name='चुका'>|<fs af='चुक,v,m,sg,any,,या,yA'>
+7.4	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>|<fs af='है,v,any,sg,3,,है,hE'>
+	))
+</Sentence>
+
+<Sentence id='9'>
+1	((	NP	<fs name='NP' drel='k2:VGF'>
+1.1	यह	PRP	<fs af='यह,pn,any,sg,3,d,0,0' name='यह'>
+	))
+2	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:NULL__CCP'>
+2.1	माना	VM	<fs af='मान,v,m,sg,any,,या,yA' name='माना'>
+2.2	जा	VAUX	<fs af='जा,v,any,any,any,,0,0' name='जा'>
+2.3	रहा	VAUX	<fs af='रह,v,m,sg,any,,या,yA' name='रहा'>
+2.4	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>|<fs af='है,v,any,sg,3,,है,hE'>
+	))
+3	((	CCP	<fs name='CCP' drel='rs:NP'>
+3.1	कि	CC	<fs af='कि,avy,,,,,,' name='कि'>
+	))
+4	((	NP	<fs name='NP2' drel='k1:VGNF'>
+4.1	सरकार	NN	<fs af='सरकार,n,f,sg,3,d,0,0' name='सरकार'>|<fs af='सरकार,n,f,sg,3,o,0,0'>
+4.2	द्वारा	PSP	<fs af='द्वारा,psp,,,,,,' name='द्वारा'>|<fs af='द्वारा,psp,,,,,,'>
+	))
+5	((	VGNF	<fs name='VGNF' drel='nmod__k1inv:NP3'>
+5.1	दिखाई	VM	<fs af='दिखाई,n,f,sg,3,d,0,0' name='दिखाई'>|<fs af='दिखाई,n,f,pl,3,d,0,0'>|<fs af='दिखाई,n,f,sg,3,o,0,0'>|<fs af='दिखाई,n,f,pl,3,o,0,0'>|<fs af='दिखा,v,f,sg,any,,या,yA'>
+	))
+6	((	NP	<fs name='NP3' drel='k7t:VGF2'>
+6.1	जल्दी	NN	<fs af='जल्दी,n,f,sg,3,d,0,0' name='जल्दी'>|<fs af='जल्दी,n,f,pl,3,d,0,0'>|<fs af='जल्दी,n,f,sg,3,o,0,0'>|<fs af='जल्दी,n,f,pl,3,o,0,0'>
+6.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+6.3	बाद	NST	<fs af='बाद,adv,,,,,,' name='बाद'>|<fs af='बाद,avy,,,,,,'>|<fs af='बाद,psp,,,,,,'>
+	))
+7	((	NP	<fs name='NP4' drel='k1:VGF2'>
+7.1	सिलेक्टर	NN	<fs af='सिलेक्टर,unk,,,,,,' name='सिलेक्टर'>
+	))
+8	((	NP	<fs name='NP5' drel='k7t:VGF2'>
+8.1	सबसे	JJ	<fs af='सबसे,adj,any,any,,any,,' name='सबसे'>
+8.2	पहले	NST	<fs af='पहले,adv,,,,,,' name='पहले'>|<fs af='पहले,avy,,,,,,'>|<fs af='पहले,psp,,,,,,'>|<fs af='पहला,adj,m,sg,,o,,'>|<fs af='पहला,adj,m,pl,,d,,'>|<fs af='पहला,adj,m,pl,,o,,'>
+	))
+9	((	NP	<fs name='NP6' drel='k4:VGF2'>
+9.1	उन्हें	PRP	<fs af='उन्हें,unk,,,,,,' name='उन्हें'>
+	))
+10	((	NP	<fs name='NP7' drel='k7:VGF2'>
+10.1	ऐशेज	NNP	<fs af='ऐशेज,unk,,,,,,' name='ऐशेज'>
+10.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+10.3	ही	RP	<fs af='ही,adv,,,,,,' name='ही'>|<fs af='ही,psp,,,,,,'>
+	))
+11	((	NP	<fs name='NP8' drel='pof:VGF2'>
+11.1	मौका	NN	<fs af='मौका,n,m,sg,3,d,0,0' name='मौका'>
+	))
+12	((	VGF	<fs name='VGF2' voicetype='active' stype='declarative' drel='ccof:CCP'>
+12.1	देंगे	VM	<fs af='दे,v,m,pl,1,,गा,gA' name='देंगे'>|<fs af='दे,v,m,pl,3,,गा,gA'>
+12.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="9" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='10'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	त्रिकोणीय	JJ	<fs af='त्रिकोणीय,unk,,,,,,' name='त्रिकोणीय'>
+1.2	सीरीज	NN	<fs af='सीरीज,n,f,sg,3,d,0,0' name='सीरीज'>|<fs af='सीरीज,n,f,sg,3,o,0,0'>
+1.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+2	((	NP	<fs name='NP2' drel='k7:VGF'>
+2.1	एक	QC	<fs af='एक,adj,any,any,,any,,' name='एक'>|<fs af='एक,n,m,sg,3,d,0,0'>|<fs af='एक,n,m,pl,3,d,0,0'>|<fs af='एक,n,m,sg,3,o,0,0'>|<fs af='एक,n,m,pl,3,o,0,0'>
+2.2	रोमांचक	JJ	<fs af='रोमांचक,adj,any,any,,any,,' name='रोमांचक'>
+2.3	मुकाबले	NN	<fs af='मुकाबला,n,m,pl,3,d,0,0' name='मुकाबले'>|<fs af='मुकाबला,n,m,sg,3,o,0,0'>
+2.4	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	वेस्टइंडीज	NNP	<fs af='वेस्टइंडीज,unk,,,,,,' name='वेस्टइंडीज'>
+3.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+4	((	NP	<fs name='NP4' drel='k2:VGF'>
+4.1	टीम	NNPC	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+4.2	इंडिया	NNP	<fs af='इंडिया,n,m,sg,3,d,0,0' name='इंडिया'>|<fs af='इंडिया,n,m,sg,3,d,0,0'>|<fs af='इंडिया,n,m,pl,3,d,0,0'>|<fs af='इंडिया,n,m,sg,3,o,0,0'>
+4.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+5	((	NP	<fs name='NP5' drel='k3:VGF'>
+5.1	1	QC	<fs af='1,num,,,,,,' name='1'>
+5.2	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+5.3	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+6.1	हरा	VM	<fs af='हरा,v,any,any,any,,0,0' name='हरा'>|<fs af='हरा,adj,m,sg,,d,,'>
+6.2	दिया	VAUX	<fs af='दिया,n,m,sg,3,d,0,0' name='दिया'>|<fs af='दे,v,m,sg,any,,या,yA'>
+6.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="10" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='11'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	भारत	NNP	<fs af='भारत,n,m,sg,3,d,0,0' name='भारत'>|<fs af='भारत,n,m,pl,3,d,0,0'>|<fs af='भारत,n,m,sg,3,o,0,0'>|<fs af='भारत,n,m,pl,3,o,0,0'>
+1.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+2	((	NP	<fs name='NP2' drel='k7:VGF'>
+2.1	वेस्टइंडीज	NNP	<fs af='वेस्टइंडीज,unk,,,,,,' name='वेस्टइंडीज'>
+2.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+2.3	सामने	NST	<fs af='सामने,adv,,,,,,' name='सामने'>|<fs af='सामने,psp,,,,,,'>|<fs af='सामना,n,m,pl,3,d,0,0'>|<fs af='सामना,n,m,sg,3,o,0,0'>|<fs af='सामना,n,m,pl,3,o,0,0'>
+	))
+3	((	NP	<fs name='NP3' drel='rt:VGF'>
+3.1	जीत	NN	<fs af='जीत,v,any,any,any,,0,0' name='जीत'>|<fs af='जीत,n,f,sg,3,d,0,0'>|<fs af='जीत,n,f,sg,3,o,0,0'>
+3.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के2'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+3.3	लिए	PSP	<fs af='लिए,psp,,,,,,' name='लिए'>|<fs af='ले,v,m,pl,any,,या,yA'>
+	))
+4	((	NP	<fs name='NP4' drel='r6:NP5'>
+4.1	230	QC	<fs af='230,num,,,,,,' name='230'>
+4.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+4.3	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+5	((	NP	<fs name='NP5' drel='k2:VGF'>
+5.1	लक्ष्य	NN	<fs af='लक्ष्य,n,m,sg,3,d,0,0' name='लक्ष्य'>|<fs af='लक्ष्य,n,m,pl,3,d,0,0'>|<fs af='लक्ष्य,n,m,sg,3,o,0,0'>|<fs af='लक्ष्य,n,m,pl,3,o,0,0'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+6.1	रखा	VM	<fs af='रखा,v,any,any,any,,0,0' name='रखा'>|<fs af='रख,v,m,sg,any,,या,yA'>
+6.2	था	VAUX	<fs af='था,v,m,sg,any,,था,WA' name='था'>
+6.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="11" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='12'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	वेस्टइंडीज	NNP	<fs af='वेस्टइंडीज,unk,,,,,,' name='वेस्टइंडीज'>
+1.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+2	((	NP	<fs name='NP2' drel='k7:VGNF'>
+2.1	47.4	QC	<fs af='47.4,num,,,,,,' name='47.4'>
+2.2	ओवर	NN	<fs af='ओवर,unk,,,,,,' name='ओवर'>
+2.3	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGNF'>
+3.1	9	QC	<fs af='9,num,,,,,,' name='9'>
+3.2	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+	))
+4	((	VGNF	<fs name='VGNF' drel='vmod:VGF'>
+4.1	खोकर	VM	<fs af='खो,v,any,any,any,,कर,kara' name='खोकर'>
+	))
+5	((	NP	<fs name='NP4' drel='k2:VGF'>
+5.1	लक्ष्य	NN	<fs af='लक्ष्य,n,m,sg,3,d,0,0' name='लक्ष्य'>|<fs af='लक्ष्य,n,m,pl,3,d,0,0'>|<fs af='लक्ष्य,n,m,sg,3,o,0,0'>|<fs af='लक्ष्य,n,m,pl,3,o,0,0'>
+	))
+6	((	JJP	<fs name='JJP' drel='pof:VGF'>
+6.1	हासिल	JJ	<fs af='हासिल,adj,any,any,,any,,' name='हासिल'>|<fs af='हासिल,n,m,sg,3,d,0,0'>|<fs af='हासिल,n,m,pl,3,d,0,0'>|<fs af='हासिल,n,m,sg,3,o,0,0'>|<fs af='हासिल,n,m,pl,3,o,0,0'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	कर	VM	<fs af='कर,n,m,sg,3,d,0,0' name='कर'>|<fs af='कर,n,m,pl,3,d,0,0'>|<fs af='कर,n,m,sg,3,o,0,0'>|<fs af='कर,v,any,any,any,,0,0'>
+7.2	लिया	VAUX	<fs af='ले,v,m,sg,any,,या,yA' name='लिया'>
+7.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="12" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='13'>
+1	((	NP	<fs name='NP' drel='rd:VGF'>
+1.1	वेस्टइंडीज	NNP	<fs af='वेस्टइंडीज,unk,,,,,,' name='वेस्टइंडीज'>
+1.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+1.3	ओर	NST	<fs af='ओर,adv,,,,,,' name='ओर'>
+1.4	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	जानसन	NNPC	<fs af='जानसन,unk,,,,,,' name='जानसन'>
+2.2	चार्ल्स	NNP	<fs af='चार्ल्स,n,m,sg,3,d,0,0' name='चार्ल्स'>|<fs af='चार्ल्स,n,m,pl,3,d,0,0'>|<fs af='चार्ल्स,n,m,sg,3,o,0,0'>
+2.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+3	((	NP	<fs name='NP3' drel='r6-k2:NP4'>
+3.1	सर्वाधिक	INTF	<fs af='सर्वाधिक,adj,any,any,,any,,' name='सर्वाधिक'>
+3.2	97	QC	<fs af='97,num,,,,,,' name='97'>
+3.3	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+3.4	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+4	((	NP	<fs name='NP4' drel='pof:VGF'>
+4.1	योगदान	NN	<fs af='योगदान,n,m,sg,3,d,0,0' name='योगदान'>|<fs af='योगदान,n,m,pl,3,d,0,0'>|<fs af='योगदान,n,m,sg,3,o,0,0'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+5.1	किया	VM	<fs af='कर,v,m,sg,any,,या,yA' name='किया'>
+5.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="13" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='14'>
+1	((	NP	<fs name='NP' drel='k7t:VGF'>
+1.1	इससे	PRP	<fs af='यह,pn,any,sg,3,o,से,se' name='इससे'>|<fs af='यह,pn,any,sg,3,o,से,se'>
+1.2	पहले	NST	<fs af='पहले,adv,,,,,,' name='पहले'>|<fs af='पहले,avy,,,,,,'>|<fs af='पहले,psp,,,,,,'>|<fs af='पहला,adj,m,sg,,o,,'>|<fs af='पहला,adj,m,pl,,d,,'>|<fs af='पहला,adj,m,pl,,o,,'>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:CCP'>
+2.1	रोहित	NNPC	<fs af='रोहित,adj,any,any,,any,,' name='रोहित'>
+2.2	शर्मा	NNP	<fs af='शर्मा,n,m,sg,3,d,0,0' name='शर्मा'>
+	))
+3	((	NP	<fs name='NP3' drel='rs:NP2'>
+3.1	(	SYM	<fs af='&rcbrs;,punc,,,,,,' name='('>
+3.2	60	QC	<fs af='60,num,,,,,,' name='60'>
+3.3	)	SYM	<fs af='&lcbrs;,punc,,,,,,' name=')'>
+	))
+4	((	CCP	<fs name='CCP' drel='r6:NP6'>
+4.1	व	CC	<fs af='व,avy,,,,,,' name='व'>
+	))
+5	((	NP	<fs name='NP4' drel='ccof:CCP'>
+5.1	सुरेश	NNPC	<fs af='सुरेश,n,m,sg,3,d,0,0' name='सुरेश'>|<fs af='सुरेश,n,m,pl,3,d,0,0'>|<fs af='सुरेश,n,m,sg,3,o,0,0'>
+5.2	रैना	NNP	<fs af='रैना,n,m,sg,3,d,0,0' name='रैना'>
+	))
+6	((	NP	<fs name='NP5' drel='rs:NP4'>
+6.1	(	SYM	<fs af='&rcbrs;,punc,,,,,,' name='(2'>
+6.2	44	QC	<fs af='44,num,,,,,,' name='44'>
+6.3	)	SYM	<fs af='&lcbrs;,punc,,,,,,' name=')2'>
+	))
+7	((	FRAGP	<fs name='FRAGP' drel='fragof:CCP'>
+7.1	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+8	((	VGNF	<fs name='VGNF' drel='nmod__k1inv:NP6'>
+8.1	संभली	VM	<fs af='संभली,unk,,,,,,' name='संभली'>
+8.2	हुई	VAUX	<fs af='हो,v,f,sg,any,,या,yA' name='हुई'>
+	))
+9	((	NP	<fs name='NP6' drel='rh:VGF'>
+9.1	पारियों	NN	<fs af='पारी,n,f,pl,3,o,0,0' name='पारियों'>
+9.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की2'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+9.3	बदौलत	PSP	<fs af='बदौलत,adv,,,,,,' name='बदौलत'>
+	))
+10	((	NP	<fs name='NP7' drel='k1:VGF'>
+10.1	भारत	NNP	<fs af='भारत,n,m,sg,3,d,0,0' name='भारत'>|<fs af='भारत,n,m,pl,3,d,0,0'>|<fs af='भारत,n,m,sg,3,o,0,0'>|<fs af='भारत,n,m,pl,3,o,0,0'>
+10.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+11	((	NP	<fs name='NP8' drel='k7:VGF'>
+11.1	त्रिकोणीय	JJ	<fs af='त्रिकोणीय,unk,,,,,,' name='त्रिकोणीय'>
+11.2	वनडे	NNC	<fs af='वनडे,unk,,,,,,' name='वनडे'>
+11.3	सीरीज	NN	<fs af='सीरीज,n,f,sg,3,d,0,0' name='सीरीज'>|<fs af='सीरीज,n,f,sg,3,o,0,0'>
+11.4	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+12	((	NP	<fs name='NP9' drel='vmod:VGF'>
+12.1	मेजबान	NN	<fs af='मेजबान,n,m,sg,3,d,0,0' name='मेजबान'>|<fs af='मेजबान,n,m,pl,3,d,0,0'>|<fs af='मेजबान,n,m,sg,3,o,0,0'>
+12.2	वेस्टइंडीज	NNP	<fs af='वेस्टइंडीज,unk,,,,,,' name='वेस्टइंडीज'>
+12.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+12.4	खिलाफ	PSP	<fs af='खिलाफ,psp,,,,,,' name='खिलाफ'>|<fs af='खिलाफ,adj,any,any,,any,,'>|<fs af='खिलाफ,n,m,sg,3,d,0,0'>|<fs af='खिलाफ,n,m,pl,3,d,0,0'>|<fs af='खिलाफ,n,m,sg,3,o,0,0'>|<fs af='खिलाफ,n,m,pl,3,o,0,0'>
+	))
+13	((	NP	<fs name='NP10' drel='k7:VGF'>
+13.1	सात	QC	<fs af='सात,n,m,sg,3,d,0,0' name='सात'>|<fs af='सात,n,m,pl,3,d,0,0'>|<fs af='सात,n,m,sg,3,o,0,0'>
+13.2	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+13.3	पर	PSP	<fs af='पर,avy,,,,,,' name='पर'>|<fs af='पर,psp,,,,,,'>|<fs af='पर,psp,,,,,,'>
+	))
+14	((	NP	<fs name='NP11' drel='k2:VGF'>
+14.1	229	QC	<fs af='229,num,,,,,,' name='229'>
+14.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+	))
+15	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+15.1	बनाए	VM	<fs af='बना,v,any,sg,2,,एं,e' name='बनाए'>|<fs af='बना,v,any,sg,3,,ए,e'>|<fs af='बना,v,m,pl,any,,या,yA'>
+15.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="14" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='15'>
+1	((	NP	<fs name='NP' drel='k1:NULL__VGF'>
+1.1	दिनेश	NNPC	<fs af='दिनेश,n,m,sg,3,d,0,0' name='दिनेश'>|<fs af='दिनेश,n,m,pl,3,d,0,0'>|<fs af='दिनेश,n,m,sg,3,o,0,0'>
+1.2	कार्तिक	NNP	<fs af='कार्तिक,n,m,sg,3,d,0,0' name='कार्तिक'>|<fs af='कार्तिक,n,m,pl,3,d,0,0'>|<fs af='कार्तिक,n,m,sg,3,o,0,0'>|<fs af='कार्तिक,n,m,pl,3,o,0,0'>
+1.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:NULL__VGF'>
+2.1	23	QC	<fs af='23,num,,,,,,' name='23'>
+	))
+3	((	NULL__VGF	<fs troot='दे' voicetype='active' stype='declarative' mtype='gap' name='NULL__VGF' dmrel='ccof:CCP'>
+3.1	NULL	VM	<fs name='NULL'>
+	))
+4	((	CCP	<fs name='CCP'>
+4.1	व	CC	<fs af='व,avy,,,,,,' name='व'>
+	))
+5	((	NP	<fs name='NP3' drel='k1:VGF'>
+5.1	कप्तान	NN	<fs af='कप्तान,n,m,sg,3,d,0,0' name='कप्तान'>|<fs af='कप्तान,n,m,pl,3,d,0,0'>|<fs af='कप्तान,n,m,sg,3,o,0,0'>
+5.2	धोनी	NNP	<fs af='धो,v,f,sg,any,,ना,nA' name='धोनी'>
+5.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने2'>
+	))
+6	((	NP	<fs name='NP4' drel='r6-k2:NP5'>
+6.1	27	QC	<fs af='27,num,,,,,,' name='27'>
+6.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+6.3	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+7	((	NP	<fs name='NP5' drel='pof:VGF'>
+7.1	योगदान	NN	<fs af='योगदान,n,m,sg,3,d,0,0' name='योगदान'>|<fs af='योगदान,n,m,pl,3,d,0,0'>|<fs af='योगदान,n,m,sg,3,o,0,0'>
+	))
+8	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+8.1	दिया	VM	<fs af='दिया,n,m,sg,3,d,0,0' name='दिया'>|<fs af='दे,v,m,sg,any,,या,yA'>
+8.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="15" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='16'>
+1	((	NP	<fs name='NP' drel='rd:VGF'>
+1.1	इंडीज	NNP	<fs af='इंडीज,n,m,sg,3,d,0,0' name='इंडीज'>|<fs af='इंडीज,n,m,pl,3,d,0,0'>|<fs af='इंडीज,n,m,sg,3,o,0,0'>
+1.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+1.3	ओर	NST	<fs af='ओर,adv,,,,,,' name='ओर'>
+1.4	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:CCP'>
+2.1	रोश	NNP	<fs af='रोश,unk,,,,,,' name='रोश'>
+2.2	,	SYM	<fs af='&comma;,punc,,,,,,' name=','>
+	))
+3	((	NP	<fs name='NP3' drel='ccof:CCP'>
+3.1	बेस्ट	NNP	<fs af='बेस्ट,n,m,sg,3,d,0,0' name='बेस्ट'>|<fs af='बेस्ट,n,m,pl,3,d,0,0'>|<fs af='बेस्ट,n,m,sg,3,o,0,0'>|<fs af='बेस्ट,adj,any,any,,any,,'>
+	))
+4	((	CCP	<fs name='CCP' drel='k1:VGF'>
+4.1	व	CC	<fs af='व,avy,,,,,,' name='व'>
+	))
+5	((	NP	<fs name='NP4' drel='ccof:CCP'>
+5.1	सैमी	NNP	<fs af='सैमी,unk,,,,,,' name='सैमी'>
+5.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+6	((	NP	<fs name='NP5' drel='k2:VGF'>
+6.1	दो	QC	<fs af='दो,n,m,sg,3,d,0,0' name='दो'>|<fs af='दो,n,m,pl,3,d,0,0'>|<fs af='दो,n,m,sg,3,o,0,0'>|<fs af='दे,v,any,pl,2,,ओ,o'>
+6.2	-	SYM	<fs af='&minus;,punc,,,,,,' name='-'>
+6.3	दो	RDP	<fs af='दो,n,m,sg,3,d,0,0' name='दो2'>|<fs af='दो,n,m,pl,3,d,0,0'>|<fs af='दो,n,m,sg,3,o,0,0'>|<fs af='दे,v,any,pl,2,,ओ,o'>
+6.4	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	लिए	VM	<fs af='लिए,psp,,,,,,' name='लिए'>|<fs af='ले,v,m,pl,any,,या,yA'>
+7.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="16" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='17'>
+1	((	NP	<fs name='NP' drel='k7:VGF'>
+1.1	मैच	NN	<fs af='मैच,n,m,sg,3,d,0,0' name='मैच'>|<fs af='मैच,n,m,pl,3,d,0,0'>|<fs af='मैच,n,m,sg,3,o,0,0'>
+1.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	भारत	NNP	<fs af='भारत,n,m,sg,3,d,0,0' name='भारत'>|<fs af='भारत,n,m,pl,3,d,0,0'>|<fs af='भारत,n,m,sg,3,o,0,0'>|<fs af='भारत,n,m,pl,3,o,0,0'>
+2.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	शुरुआत	NN	<fs af='शुरुआत,n,m,sg,3,d,0,0' name='शुरुआत'>|<fs af='शुरुआत,n,m,pl,3,d,0,0'>|<fs af='शुरुआत,n,m,sg,3,o,0,0'>
+	))
+4	((	JJP	<fs name='JJP' drel='k1s:VGF'>
+4.1	ठीक	JJ	<fs af='ठीक,adv,,,,,,' name='ठीक'>|<fs af='ठीक,adj,any,any,,any,,'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+5.1	नहीं	NEG	<fs af='नहीं,adv,,,,,,' name='नहीं'>
+5.2	रही	VM	<fs af='रह,v,f,sg,any,,या,yA' name='रही'>
+5.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="17" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='18'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ओपनर	NN	<fs af='ओपनर,unk,,,,,,' name='ओपनर'>
+1.2	शिखर	NNPC	<fs af='शिखर,n,m,sg,3,d,0,0' name='शिखर'>|<fs af='शिखर,n,m,pl,3,d,0,0'>|<fs af='शिखर,n,m,sg,3,o,0,0'>
+1.3	धवन	NNP	<fs af='धवन,unk,,,,,,' name='धवन'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGF'>
+2.1	11	QC	<fs af='11,num,,,,,,' name='11'>
+2.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+2.3	ही	RP	<fs af='ही,adv,,,,,,' name='ही'>|<fs af='ही,psp,,,,,,'>
+	))
+3	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+3.1	बना	VM	<fs af='बना,v,any,any,any,,0,0' name='बना'>|<fs af='बन,v,m,sg,any,,या,yA'>
+3.2	सके	VAUX	<fs af='सक,v,any,sg,2,,एं,e' name='सके'>|<fs af='सक,v,any,sg,3,,ए,e'>|<fs af='सक,v,m,pl,any,,या,yA'>
+3.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="18" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='19'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	कोहली	NNP	<fs af='कोहली,n,f,sg,3,d,0,0' name='कोहली'>|<fs af='कोहली,n,f,sg,3,o,0,0'>
+1.2	भी	RP	<fs af='भी,adv,,,,,,' name='भी'>|<fs af='भी,adv,,,,,,'>|<fs af='भी,avy,,,,,,'>|<fs af='भी,psp,,,,,,'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGF'>
+2.1	इतने	QF	<fs af='इतना,adj,m,sg,,o,,' name='इतने'>|<fs af='इतना,adj,m,pl,,d,,'>|<fs af='इतना,adj,m,pl,,o,,'>
+2.2	ही	RP	<fs af='ही,adv,,,,,,' name='ही'>|<fs af='ही,psp,,,,,,'>
+2.3	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+	))
+3	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+3.1	बना	VM	<fs af='बना,v,any,any,any,,0,0' name='बना'>|<fs af='बन,v,m,sg,any,,या,yA'>
+3.2	सके	VAUX	<fs af='सक,v,any,sg,2,,एं,e' name='सके'>|<fs af='सक,v,any,sg,3,,ए,e'>|<fs af='सक,v,m,pl,any,,या,yA'>
+3.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="19" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='20'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	भारत	NNP	<fs af='भारत,n,m,sg,3,d,0,0' name='भारत'>|<fs af='भारत,n,m,pl,3,d,0,0'>|<fs af='भारत,n,m,sg,3,o,0,0'>|<fs af='भारत,n,m,pl,3,o,0,0'>
+1.2	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	दूसरा	QO	<fs af='दूसरा,adj,m,sg,,d,,' name='दूसरा'>|<fs af='दूसरा,n,m,sg,3,d,0,0'>
+2.2	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+	))
+3	((	NP	<fs name='NP3' drel='k7:VGF'>
+3.1	10वें	QC	<fs af='10वें,unk,,,,,,' name='10वें'>
+3.2	ओवर	NN	<fs af='ओवर,unk,,,,,,' name='ओवर'>
+3.3	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+4	((	NP	<fs name='NP4' drel='r6:NP5'>
+4.1	39	QC	<fs af='39,num,,,,,,' name='39'>
+4.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+5	((	NP	<fs name='NP5' drel='k7:VGF'>
+5.1	स्कोर	NN	<fs af='स्कोर,n,m,sg,3,d,0,0' name='स्कोर'>|<fs af='स्कोर,n,m,pl,3,d,0,0'>|<fs af='स्कोर,n,m,sg,3,o,0,0'>
+5.2	पर	PSP	<fs af='पर,avy,,,,,,' name='पर'>|<fs af='पर,psp,,,,,,'>|<fs af='पर,psp,,,,,,'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+6.1	गिरा	VM	<fs af='गिरा,v,any,any,any,,0,0' name='गिरा'>|<fs af='गिर,v,m,sg,any,,या,yA'>
+6.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="20" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='21'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ओपनर	NN	<fs af='ओपनर,unk,,,,,,' name='ओपनर'>
+1.2	रोहित	NNPC	<fs af='रोहित,adj,any,any,,any,,' name='रोहित'>
+1.3	शर्मा	NNP	<fs af='शर्मा,n,m,sg,3,d,0,0' name='शर्मा'>
+1.4	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGF'>
+2.1	टीम	NN	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+2.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+3	((	NP	<fs name='NP3' drel='k5:VGF'>
+3.1	इन	DEM	<fs af='यह,pn,any,pl,3,o,0,0' name='इन'>|<fs af='यह,pn,any,pl,3,o,को,ko'>
+3.2	झटकों	NN	<fs af='झटका,n,m,pl,3,o,0,0' name='झटकों'>
+3.3	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+4	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+4.1	उबारा	VM	<fs af='उबार,v,m,sg,any,,या,yA' name='उबारा'>
+4.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="21" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='22'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	उन्होंने	PRP	<fs af='उन्होंने,unk,,,,,,' name='उन्होंने'>
+	))
+2	((	NP	<fs name='NP2' drel='ras-k1:VGF'>
+2.1	दिनेश	NNPC	<fs af='दिनेश,n,m,sg,3,d,0,0' name='दिनेश'>|<fs af='दिनेश,n,m,pl,3,d,0,0'>|<fs af='दिनेश,n,m,sg,3,o,0,0'>
+2.2	कार्तिक	NNP	<fs af='कार्तिक,n,m,sg,3,d,0,0' name='कार्तिक'>|<fs af='कार्तिक,n,m,pl,3,d,0,0'>|<fs af='कार्तिक,n,m,sg,3,o,0,0'>|<fs af='कार्तिक,n,m,pl,3,o,0,0'>
+	))
+3	((	NP	<fs name='NP3' drel='rs:NP2'>
+3.1	(	SYM	<fs af='&rcbrs;,punc,,,,,,' name='('>
+3.2	23	QC	<fs af='23,num,,,,,,' name='23'>
+3.3	)	SYM	<fs af='&lcbrs;,punc,,,,,,' name=')'>
+	))
+4	((	FRAGP	<fs name='FRAGP' drel='fragof:NP2'>
+4.1	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+4.2	साथ	NST	<fs af='साथ,adv,,,,,,' name='साथ'>|<fs af='साथ,psp,,,,,,'>
+	))
+5	((	NP	<fs name='NP4' drel='r6-k2:NP5'>
+5.1	59	QC	<fs af='59,num,,,,,,' name='59'>
+5.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+5.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+6	((	NP	<fs name='NP5' drel='pof:VGF'>
+6.1	साझेदारी	NN	<fs af='साझेदारी,n,f,sg,3,d,0,0' name='साझेदारी'>|<fs af='साझेदारी,n,f,pl,3,d,0,0'>|<fs af='साझेदारी,n,f,sg,3,o,0,0'>|<fs af='साझेदारी,n,f,pl,3,o,0,0'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	की	VM	<fs af='का,psp,f,sg,,d,का,kA' name='की2'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+7.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="22" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='23'>
+1	((	NP	<fs name='NP' drel='ccof:CCP'>
+1.1	कार्तिक	NNP	<fs af='कार्तिक,n,m,sg,3,d,0,0' name='कार्तिक'>|<fs af='कार्तिक,n,m,pl,3,d,0,0'>|<fs af='कार्तिक,n,m,sg,3,o,0,0'>|<fs af='कार्तिक,n,m,pl,3,o,0,0'>
+	))
+2	((	CCP	<fs name='CCP' drel='k1:VGNN'>
+2.1	और	CC	<fs af='और,avy,,,,,,' name='और'>
+	))
+3	((	NP	<fs name='NP2' drel='ccof:CCP'>
+3.1	रोहित	NNP	<fs af='रोहित,adj,any,any,,any,,' name='रोहित'>
+3.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+4	((	JJP	<fs name='JJP' drel='pof:VGNN'>
+4.1	आउट	JJ	<fs af='आउट,n,m,sg,3,d,0,0' name='आउट'>|<fs af='आउट,n,m,pl,3,d,0,0'>|<fs af='आउट,n,m,sg,3,o,0,0'>|<fs af='आउट,n,m,pl,3,o,0,0'>
+	))
+5	((	VGNN	<fs name='VGNN' drel='k7:VGF'>
+5.1	होने	VM	<fs af='हो,v,m,pl,any,,ना,nA' name='होने'>
+5.2	पर	PSP	<fs af='पर,avy,,,,,,' name='पर'>|<fs af='पर,psp,,,,,,'>|<fs af='पर,psp,,,,,,'>
+	))
+6	((	NP	<fs name='NP3' drel='ccof:CCP2'>
+6.1	सुरेश	NNPC	<fs af='सुरेश,n,m,sg,3,d,0,0' name='सुरेश'>|<fs af='सुरेश,n,m,pl,3,d,0,0'>|<fs af='सुरेश,n,m,sg,3,o,0,0'>
+6.2	रैना	NNP	<fs af='रैना,n,m,sg,3,d,0,0' name='रैना'>
+	))
+7	((	CCP	<fs name='CCP2' drel='k1:VGF'>
+7.1	और	CC	<fs af='और,avy,,,,,,' name='और2'>
+	))
+8	((	NP	<fs name='NP4' drel='ccof:CCP2'>
+8.1	कप्तान	NN	<fs af='कप्तान,n,m,sg,3,d,0,0' name='कप्तान'>|<fs af='कप्तान,n,m,pl,3,d,0,0'>|<fs af='कप्तान,n,m,sg,3,o,0,0'>
+8.2	धोनी	NNP	<fs af='धो,v,f,sg,any,,ना,nA' name='धोनी'>
+8.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+9	((	NP	<fs name='NP5' drel='k2:VGF'>
+9.1	मोर्चा	NN	<fs af='मोर्चा,n,m,sg,3,d,0,0' name='मोर्चा'>
+	))
+10	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+10.1	संभाला	VM	<fs af='संभाल,v,m,sg,any,,या,yA' name='संभाला'>
+10.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="23" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='24'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	दोनों	NN	<fs af='दोनों,n,f,sg,3,d,0,0' name='दोनों'>|<fs af='दोनों,n,f,pl,3,d,0,0'>|<fs af='दोनों,n,f,sg,3,o,0,0'>|<fs af='दोनों,n,f,pl,3,o,0,0'>
+1.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+2	((	NP	<fs name='NP2' drel='r6-k2:NP3'>
+2.1	58	QC	<fs af='58,num,,,,,,' name='58'>
+2.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+2.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+3	((	NP	<fs name='NP3' drel='pof:VGF'>
+3.1	साझेदारी	NN	<fs af='साझेदारी,n,f,sg,3,d,0,0' name='साझेदारी'>|<fs af='साझेदारी,n,f,pl,3,d,0,0'>|<fs af='साझेदारी,n,f,sg,3,o,0,0'>|<fs af='साझेदारी,n,f,pl,3,o,0,0'>
+	))
+4	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+4.1	की	VM	<fs af='का,psp,f,sg,,d,का,kA' name='की2'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+4.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="24" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='25'>
+1	((	CCP	<fs name='CCP'>
+1.1	लेकिन	CC	<fs af='लेकिन,avy,,,,,,' name='लेकिन'>
+	))
+2	((	NP	<fs name='NP' drel='vmod:VGNN'>
+2.1	रन	NNC	<fs af='रन,unk,,,,,,' name='रन'>
+2.2	गति	NN	<fs af='गति,n,f,sg,3,d,0,0' name='गति'>|<fs af='गति,n,f,pl,3,d,0,0'>|<fs af='गति,n,f,sg,3,o,0,0'>|<fs af='गति,n,f,pl,3,o,0,0'>
+	))
+3	((	VGNN	<fs name='VGNN' drel='k7:VGF'>
+3.1	बढ़ाने	VM	<fs af='बढा,v,m,pl,any,,ना,nA' name='बढ़ाने'>
+3.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+4	((	JJP	<fs name='JJP' drel='pof:VGF'>
+4.1	नाकाम	JJ	<fs af='नाकाम,n,m,sg,3,d,0,0' name='नाकाम'>|<fs af='नाकाम,n,m,pl,3,d,0,0'>|<fs af='नाकाम,n,m,sg,3,o,0,0'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+5.1	रहे	VM	<fs af='रह,v,any,sg,2,,एं,e' name='रहे'>|<fs af='रह,v,any,sg,3,,ए,e'>|<fs af='रह,v,m,pl,any,,या,yA'>
+5.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="25" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='26'>
+1	((	NP	<fs name='NP' drel='rd:VGF'>
+1.1	वेस्टइंडीज	NNP	<fs af='वेस्टइंडीज,unk,,,,,,' name='वेस्टइंडीज'>
+1.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+1.3	ओर	NST	<fs af='ओर,adv,,,,,,' name='ओर'>
+1.4	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:CCP'>
+2.1	केमार	NNPC	<fs af='केमार,unk,,,,,,' name='केमार'>
+2.2	रोच	NNP	<fs af='रोच,n,m,sg,3,d,0,0' name='रोच'>|<fs af='रोच,n,m,pl,3,d,0,0'>|<fs af='रोच,n,m,sg,3,o,0,0'>
+2.3	,	SYM	<fs af='&comma;,punc,,,,,,' name=','>
+	))
+3	((	NP	<fs name='NP3' drel='ccof:CCP'>
+3.1	डैरेन	NNPC	<fs af='डैरेन,unk,,,,,,' name='डैरेन'>
+3.2	सैमी	NNP	<fs af='सैमी,unk,,,,,,' name='सैमी'>
+	))
+4	((	CCP	<fs name='CCP' drel='k1:VGF'>
+4.1	और	CC	<fs af='और,avy,,,,,,' name='और'>
+	))
+5	((	NP	<fs name='NP4' drel='ccof:CCP'>
+5.1	टीनो	NNPC	<fs af='टीनो,unk,,,,,,' name='टीनो'>
+5.2	बेस्ट	NNP	<fs af='बेस्ट,n,m,sg,3,d,0,0' name='बेस्ट'>|<fs af='बेस्ट,n,m,pl,3,d,0,0'>|<fs af='बेस्ट,n,m,sg,3,o,0,0'>|<fs af='बेस्ट,adj,any,any,,any,,'>
+5.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+6	((	NP	<fs name='NP5' drel='k2:VGF'>
+6.1	दो	QC	<fs af='दो,n,m,sg,3,d,0,0' name='दो'>|<fs af='दो,n,m,pl,3,d,0,0'>|<fs af='दो,n,m,sg,3,o,0,0'>|<fs af='दे,v,any,pl,2,,ओ,o'>
+6.2	-	SYM	<fs af='&minus;,punc,,,,,,' name='-'>
+6.3	दो	RDP	<fs af='दो,n,m,sg,3,d,0,0' name='दो2'>|<fs af='दो,n,m,pl,3,d,0,0'>|<fs af='दो,n,m,sg,3,o,0,0'>|<fs af='दे,v,any,pl,2,,ओ,o'>
+6.4	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	झटके	VM	<fs af='झटका,n,m,pl,3,d,0,0' name='झटके'>|<fs af='झटका,n,m,sg,3,o,0,0'>|<fs af='झटक,v,any,sg,2,,एं,e'>|<fs af='झटक,v,any,sg,3,,ए,e'>|<fs af='झटक,v,m,pl,any,,या,yA'>
+7.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="26" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='27'>
+1	((	NP	<fs name='NP' drel='nmod:NP2'>
+1.1	पार्टटाइम	NNC	<fs af='पार्टटाइम,n,m,sg,3,d,0,0' name='पार्टटाइम'>|<fs af='पार्टटाइम,n,m,pl,3,d,0,0'>|<fs af='पार्टटाइम,n,m,sg,3,o,0,0'>
+1.2	स्पिनर	NN	<fs af='स्पिनर,unk,,,,,,' name='स्पिनर'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	मर्लोन	NNPC	<fs af='मर्लोन,unk,,,,,,' name='मर्लोन'>
+2.2	सैमुअल्स	NNP	<fs af='सैमुअल्स,unk,,,,,,' name='सैमुअल्स'>
+2.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+3	((	NP	<fs name='NP3' drel='k7:VGF'>
+3.1	नौ	QC	<fs af='नौ,n,m,sg,3,d,0,0' name='नौ'>|<fs af='नौ,n,m,pl,3,d,0,0'>|<fs af='नौ,n,m,sg,3,o,0,0'>|<fs af='नौ,n,m,pl,3,o,0,0'>
+3.2	ओवरों	NN	<fs af='ओवरों,unk,,,,,,' name='ओवरों'>
+3.3	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+4	((	NP	<fs name='NP4' drel='k2:VGF'>
+4.1	सिर्फ	RP	<fs af='सिर्फ,adj,any,any,,any,,' name='सिर्फ'>
+4.2	20	QC	<fs af='20,num,,,,,,' name='20'>
+4.3	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+5.1	दिए	VM	<fs af='दे,v,m,pl,any,,या,yA' name='दिए'>
+5.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="27" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='28'>
+1	((	CCP	<fs name='CCP'>
+1.1	लेकिन	CC	<fs af='लेकिन,avy,,,,,,' name='लेकिन'>
+	))
+2	((	NP	<fs name='NP' drel='r6:NP2'>
+2.1	स्पिनरों	NN	<fs af='स्पिनरों,unk,,,,,,' name='स्पिनरों'>
+2.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+3	((	NP	<fs name='NP2' drel='k7:VGF'>
+3.1	मददगार	JJ	<fs af='मददगार,n,m,sg,3,d,0,0' name='मददगार'>|<fs af='मददगार,n,m,pl,3,d,0,0'>|<fs af='मददगार,n,m,sg,3,o,0,0'>
+3.2	पिच	NN	<fs af='पिच,n,m,sg,3,d,0,0' name='पिच'>|<fs af='पिच,n,m,pl,3,d,0,0'>|<fs af='पिच,n,m,sg,3,o,0,0'>
+3.3	पर	PSP	<fs af='पर,avy,,,,,,' name='पर'>|<fs af='पर,psp,,,,,,'>|<fs af='पर,psp,,,,,,'>
+3.4	भी	RP	<fs af='भी,adv,,,,,,' name='भी'>|<fs af='भी,adv,,,,,,'>|<fs af='भी,avy,,,,,,'>|<fs af='भी,psp,,,,,,'>
+	))
+4	((	NP	<fs name='NP3' drel='k4:VGF'>
+4.1	सुनील	NNPC	<fs af='सुनील,n,m,sg,3,d,0,0' name='सुनील'>|<fs af='सुनील,n,m,pl,3,d,0,0'>|<fs af='सुनील,n,m,sg,3,o,0,0'>
+4.2	नरेन	NNP	<fs af='नरेन,unk,,,,,,' name='नरेन'>
+4.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+5	((	NP	<fs name='NP4' drel='k1:VGF'>
+5.1	कोई	PRP	<fs af='कोई,pn,any,sg,3,d,0,0' name='कोई'>|<fs af='कोई,pn,any,pl,3,d,0,0'>
+5.2	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+6.1	नहीं	NEG	<fs af='नहीं,adv,,,,,,' name='नहीं'>
+6.2	मिला	VM	<fs af='मिला,v,any,any,any,,0,0' name='मिला'>|<fs af='मिल,v,m,sg,any,,या,yA'>
+6.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="28" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='29'>
+1	((	NP	<fs name='NP' drel='k2:VGNN'>
+1.1	आईसीसी	NNPC	<fs af='आईसीसी,unk,,,,,,' name='आईसीसी'>
+1.2	चैंपियंस	NNPC	<fs af='चैंपियंस,unk,,,,,,' name='चैंपियंस'>
+1.3	ट्रॉफी	NNP	<fs af='ट्रॉफी,unk,,,,,,' name='ट्रॉफी'>
+	))
+2	((	VGNN	<fs name='VGNN' drel='k7t:VGF'>
+2.1	जीतने	VM	<fs af='जीत,v,m,pl,any,,ना,nA' name='जीतने'>
+2.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+2.3	बाद	NST	<fs af='बाद,adv,,,,,,' name='बाद'>|<fs af='बाद,avy,,,,,,'>|<fs af='बाद,psp,,,,,,'>
+	))
+3	((	NP	<fs name='NP2' drel='r6:NP3'>
+3.1	टीम	NNPC	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+3.2	इंडिया	NNP	<fs af='इंडिया,n,m,sg,3,d,0,0' name='इंडिया'>|<fs af='इंडिया,n,m,sg,3,d,0,0'>|<fs af='इंडिया,n,m,pl,3,d,0,0'>|<fs af='इंडिया,n,m,sg,3,o,0,0'>
+3.3	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:VGF'>
+4.1	वेस्ट	NNPC	<fs af='वेस्ट,n,m,sg,3,d,0,0' name='वेस्ट'>|<fs af='वेस्ट,n,m,pl,3,d,0,0'>|<fs af='वेस्ट,n,m,sg,3,o,0,0'>
+4.2	इंडीज	NNP	<fs af='इंडीज,n,m,sg,3,d,0,0' name='इंडीज'>|<fs af='इंडीज,n,m,pl,3,d,0,0'>|<fs af='इंडीज,n,m,sg,3,o,0,0'>
+4.3	टूर	NN	<fs af='टूर,n,m,sg,3,d,0,0' name='टूर'>|<fs af='टूर,n,m,pl,3,d,0,0'>|<fs af='टूर,n,m,sg,3,o,0,0'>
+	))
+5	((	NP	<fs name='NP4' drel='ras-k1:VGF'>
+5.1	हार	NN	<fs af='हार,n,m,sg,3,d,0,0' name='हार'>|<fs af='हार,n,m,pl,3,d,0,0'>|<fs af='हार,n,m,sg,3,o,0,0'>|<fs af='हार,v,any,any,any,,0,0'>|<fs af='हार,n,f,sg,3,d,0,0'>|<fs af='हार,n,f,sg,3,o,0,0'>
+5.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के2'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+5.3	साथ	NST	<fs af='साथ,adv,,,,,,' name='साथ'>|<fs af='साथ,psp,,,,,,'>
+	))
+6	((	NP	<fs name='NP5' drel='pof:VGF'>
+6.1	शुरू	NN	<fs af='शुरू,avy,,,,,,' name='शुरू'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	हुआ	VM	<fs af='हो,v,m,sg,any,,या,yA' name='हुआ'>
+7.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="29" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='30'>
+1	((	NP	<fs name='NP' drel='vmod:VGNF'>
+1.1	मेजबान	NN	<fs af='मेजबान,n,m,sg,3,d,0,0' name='मेजबान'>|<fs af='मेजबान,n,m,pl,3,d,0,0'>|<fs af='मेजबान,n,m,sg,3,o,0,0'>
+1.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+1.3	खिलाफ	PSP	<fs af='खिलाफ,psp,,,,,,' name='खिलाफ'>|<fs af='खिलाफ,adj,any,any,,any,,'>|<fs af='खिलाफ,n,m,sg,3,d,0,0'>|<fs af='खिलाफ,n,m,pl,3,d,0,0'>|<fs af='खिलाफ,n,m,sg,3,o,0,0'>|<fs af='खिलाफ,n,m,pl,3,o,0,0'>
+	))
+2	((	VGNF	<fs name='VGNF' drel='nmod__k1inv:NP2'>
+2.1	हुए	VM	<fs af='हो,v,m,pl,any,,या,yA' name='हुए'>
+	))
+3	((	NP	<fs name='NP2' drel='k7:VGF'>
+3.1	पहले	QO	<fs af='पहले,adv,,,,,,' name='पहले'>|<fs af='पहले,avy,,,,,,'>|<fs af='पहले,psp,,,,,,'>|<fs af='पहला,adj,m,sg,,o,,'>|<fs af='पहला,adj,m,pl,,d,,'>|<fs af='पहला,adj,m,pl,,o,,'>
+3.2	वनडे	NN	<fs af='वनडे,unk,,,,,,' name='वनडे'>
+3.3	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:VGF'>
+4.1	धोनी	NNP	<fs af='धो,v,f,sg,any,,ना,nA' name='धोनी'>
+4.2	ब्रिगेड	NN	<fs af='ब्रिगेड,n,m,sg,3,d,0,0' name='ब्रिगेड'>|<fs af='ब्रिगेड,n,m,pl,3,d,0,0'>|<fs af='ब्रिगेड,n,m,sg,3,o,0,0'>
+4.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+5	((	NP	<fs name='NP4' drel='k2:VGF'>
+5.1	महज	RP	<fs af='महज,adj,any,any,,any,,' name='महज'>
+5.2	1	QC	<fs af='1,num,,,,,,' name='1'>
+5.3	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+5.4	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+6	((	NP	<fs name='NP5' drel='pof:VGF'>
+6.1	पराजय	NN	<fs af='पराजय,n,m,sg,3,d,0,0' name='पराजय'>|<fs af='पराजय,n,m,pl,3,d,0,0'>|<fs af='पराजय,n,m,sg,3,o,0,0'>|<fs af='पराजय,n,f,sg,3,d,0,0'>|<fs af='पराजय,n,f,sg,3,o,0,0'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	झेलनी	VM	<fs af='झेल,v,f,sg,any,,ना,nA' name='झेलनी'>
+7.2	पड़ी	VAUX	<fs af='पड,v,f,sg,any,,या,yA' name='पड़ी'>
+7.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="30" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='31'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	क्रिकेट	NN	<fs af='क्रिकेट,n,m,sg,3,d,0,0' name='क्रिकेट'>|<fs af='क्रिकेट,n,m,pl,3,d,0,0'>|<fs af='क्रिकेट,n,m,sg,3,o,0,0'>|<fs af='क्रिकेट,n,m,pl,3,o,0,0'>
+1.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+2	((	NP	<fs name='NP2' drel='k7:VGF'>
+2.1	खेल	NN	<fs af='खेल,n,m,sg,3,d,0,0' name='खेल'>|<fs af='खेल,n,m,pl,3,d,0,0'>|<fs af='खेल,n,m,sg,3,o,0,0'>|<fs af='खेल,v,any,any,any,,0,0'>
+2.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+3	((	NP	<fs name='NP3' drel='k7t:VGF'>
+3.1	कभी	PRP	<fs af='कभी,adv,,,,,,' name='कभी'>
+	))
+4	((	NP	<fs name='NP4' drel='rh:VGF'>
+4.1	एक	QC	<fs af='एक,adj,any,any,,any,,' name='एक'>|<fs af='एक,n,m,sg,3,d,0,0'>|<fs af='एक,n,m,pl,3,d,0,0'>|<fs af='एक,n,m,sg,3,o,0,0'>|<fs af='एक,n,m,pl,3,o,0,0'>
+4.2	गेंद	NN	<fs af='गेंद,n,f,sg,3,d,0,0' name='गेंद'>|<fs af='गेंद,n,f,sg,3,o,0,0'>
+4.3	से	PSP	<fs af='में,psp,,,,,,' name='से'>
+	))
+5	((	NP	<fs name='NP5' drel='pof:VGF'>
+5.1	पूरी	JJ	<fs af='पूरी,adj,any,any,,any,,' name='पूरी'>|<fs af='पूरी,n,f,sg,3,d,0,0'>|<fs af='पूरी,n,f,sg,3,o,0,0'>
+5.2	बाजी	NN	<fs af='बाजी,n,f,sg,3,d,0,0' name='बाजी'>|<fs af='बाजी,n,f,sg,3,o,0,0'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+6.1	पलट	VM	<fs af='पलट,v,any,any,any,,0,0' name='पलट'>
+6.2	जाती	VAUX	<fs af='जा,v,f,sg,any,,ता,wA' name='जाती'>
+6.3	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>|<fs af='है,v,any,sg,3,,है,hE'>
+	))
+7	((	CCP	<fs name='CCP'>
+7.1	तो	CC	<fs af='तो,avy,,,,,,' name='तो'>|<fs af='तो,psp,,,,,,'>
+	))
+8	((	NP	<fs name='NP6' drel='k7t:VGF2'>
+8.1	कभी	PRP	<fs af='कभी,adv,,,,,,' name='कभी2'>
+	))
+9	((	NP	<fs name='NP7' drel='k7:VGF2'>
+9.1	आखिरी	JJ	<fs af='आखिरी,adj,f,any,,any,,' name='आखिरी'>
+9.2	गेंद	NN	<fs af='गेंद,n,f,sg,3,d,0,0' name='गेंद2'>|<fs af='गेंद,n,f,sg,3,o,0,0'>
+9.3	तक	PSP	<fs af='तक,avy,,,,,,' name='तक'>|<fs af='तक,psp,,,,,,'>
+	))
+10	((	NP	<fs name='NP8' drel='k1:VGF2'>
+10.1	रोमांच	NN	<fs af='रोमांच,n,m,sg,3,d,0,0' name='रोमांच'>|<fs af='रोमांच,n,m,pl,3,d,0,0'>|<fs af='रोमांच,n,m,sg,3,o,0,0'>|<fs af='रोमांच,n,m,pl,3,o,0,0'>
+	))
+11	((	VGF	<fs name='VGF2' voicetype='active' stype='declarative' drel='ccof:CCP'>
+11.1	बना	VM	<fs af='बना,v,any,any,any,,0,0' name='बना'>|<fs af='बन,v,m,sg,any,,या,yA'>
+11.2	रहता	VAUX	<fs af='रह,v,m,sg,any,,ता,wA' name='रहता'>
+11.3	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है2'>|<fs af='है,v,any,sg,3,,है,hE'>
+11.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="31" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='32'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	संडे	NNP	<fs af='संडे,unk,,,,,,' name='संडे'>
+1.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+2	((	NP	<fs name='NP2' drel='k7t:VGNF'>
+2.1	रात	NN	<fs af='रात,n,f,sg,3,d,0,0' name='रात'>|<fs af='रात,n,f,sg,3,o,0,0'>
+	))
+3	((	VGNF	<fs name='VGNF' drel='nmod__k1inv:NP3'>
+3.1	हुए	VM	<fs af='हो,v,m,pl,any,,या,yA' name='हुए'>
+	))
+4	((	NP	<fs name='NP3' drel='k7:VGF'>
+4.1	मुकाबले	NN	<fs af='मुकाबला,n,m,pl,3,d,0,0' name='मुकाबले'>|<fs af='मुकाबला,n,m,sg,3,o,0,0'>
+4.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+5	((	NP	<fs name='NP4' drel='k1:VGF'>
+5.1	भारतीय	JJ	<fs af='भारतीय,n,m,sg,3,d,0,0' name='भारतीय'>|<fs af='भारतीय,n,m,pl,3,d,0,0'>|<fs af='भारतीय,n,m,sg,3,o,0,0'>|<fs af='भारतीय,adj,any,any,,any,,'>
+5.2	टीम	NN	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+5.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+6	((	NP	<fs name='NP5' drel='r6:NP6'>
+6.1	अपने	PRP	<fs af='अपना,adj,m,sg,,o,,' name='अपने'>|<fs af='अपना,adj,m,pl,,d,,'>|<fs af='अपना,adj,m,pl,,o,,'>
+	))
+7	((	NP	<fs name='NP6' drel='r6:NP7'>
+7.1	विकेटकीपर	NN	<fs af='विकेटकीपर,n,m,sg,3,d,0,0' name='विकेटकीपर'>|<fs af='विकेटकीपर,n,m,pl,3,d,0,0'>|<fs af='विकेटकीपर,n,m,sg,3,o,0,0'>
+7.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की2'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+8	((	NP	<fs name='NP7' drel='rh:VGF'>
+8.1	एक	QC	<fs af='एक,adj,any,any,,any,,' name='एक'>|<fs af='एक,n,m,sg,3,d,0,0'>|<fs af='एक,n,m,pl,3,d,0,0'>|<fs af='एक,n,m,sg,3,o,0,0'>|<fs af='एक,n,m,pl,3,o,0,0'>
+8.2	गलती	NN	<fs af='गलती,n,f,sg,3,d,0,0' name='गलती'>|<fs af='गलती,n,f,sg,3,o,0,0'>|<fs af='गल,v,f,sg,any,,ता,wA'>
+8.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+8.4	कारण	PSP	<fs af='कारण,n,m,sg,3,d,0,0' name='कारण'>|<fs af='कारण,n,m,pl,3,d,0,0'>|<fs af='कारण,n,m,sg,3,o,0,0'>|<fs af='कारण,psp,,,,,,'>
+	))
+9	((	NP	<fs name='NP8' drel='k2:VGF'>
+9.1	मैच	NN	<fs af='मैच,n,m,sg,3,d,0,0' name='मैच'>|<fs af='मैच,n,m,pl,3,d,0,0'>|<fs af='मैच,n,m,sg,3,o,0,0'>
+	))
+10	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+10.1	गंवाना	VM	<fs af='गँवा,v,m,sg,any,,ना,nA' name='गंवाना'>
+10.2	पड़	VAUX	<fs af='पड,v,any,any,any,,0,0' name='पड़'>
+10.3	गया	VAUX	<fs af='गया,unk,,,,,,' name='गया'>
+10.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="32" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='33'>
+1	((	NP	<fs name='NP' drel='k7:VGNF'>
+1.1	7	QC	<fs af='7,num,,,,,,' name='7'>
+1.2	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+1.3	पर	PSP	<fs af='पर,avy,,,,,,' name='पर'>|<fs af='पर,psp,,,,,,'>|<fs af='पर,psp,,,,,,'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	229	QC	<fs af='229,num,,,,,,' name='229'>
+2.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+2.3	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGNF'>
+3.1	छोटा	JJ	<fs af='छोटा,adj,m,sg,,d,,' name='छोटा'>|<fs af='छोटा,n,m,sg,3,d,0,0'>
+3.2	स्कोर	NN	<fs af='स्कोर,n,m,sg,3,d,0,0' name='स्कोर'>|<fs af='स्कोर,n,m,pl,3,d,0,0'>|<fs af='स्कोर,n,m,sg,3,o,0,0'>
+	))
+4	((	VGNF	<fs name='VGNF' drel='vmod:VGF'>
+4.1	खड़ाकर	VM	<fs af='खड़ाकर,unk,,,,,,' name='खड़ाकर'>
+	))
+5	((	NP	<fs name='NP4' drel='k1:VGF'>
+5.1	टीम	NNPC	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+5.2	इंडिया	NNP	<fs af='इंडिया,n,m,sg,3,d,0,0' name='इंडिया'>|<fs af='इंडिया,n,m,sg,3,d,0,0'>|<fs af='इंडिया,n,m,pl,3,d,0,0'>|<fs af='इंडिया,n,m,sg,3,o,0,0'>
+	))
+6	((	NP	<fs name='NP5' drel='k7:VGF'>
+6.1	पहले	QO	<fs af='पहले,adv,,,,,,' name='पहले'>|<fs af='पहले,avy,,,,,,'>|<fs af='पहले,psp,,,,,,'>|<fs af='पहला,adj,m,sg,,o,,'>|<fs af='पहला,adj,m,pl,,d,,'>|<fs af='पहला,adj,m,pl,,o,,'>
+6.2	ही	RP	<fs af='ही,adv,,,,,,' name='ही'>|<fs af='ही,psp,,,,,,'>
+6.3	बैकफुट	NN	<fs af='बैकफुट,unk,,,,,,' name='बैकफुट'>
+6.4	पर	PSP	<fs af='पर,avy,,,,,,' name='पर2'>|<fs af='पर,psp,,,,,,'>|<fs af='पर,psp,,,,,,'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	चली	VM	<fs af='चल,v,f,sg,any,,या,yA' name='चली'>
+7.2	गई	VAUX	<fs af='गई,unk,,,,,,' name='गई'>
+7.3	थी	VAUX	<fs af='था,v,f,sg,any,,था,WA' name='थी'>
+7.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="33" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='34'>
+1	((	VGNF	<fs name='VGNF' drel='nmod:NP'>
+1.1	रही	VM	<fs af='रह,v,f,sg,any,,या,yA' name='रही'>
+1.2	सही	RP	<fs af='सह,v,f,sg,any,,या,yA' name='सही'>
+	))
+2	((	NP	<fs name='NP' drel='k2:VGF'>
+2.1	कसर	NN	<fs af='कसर,n,f,sg,3,d,0,0' name='कसर'>|<fs af='कसर,n,f,sg,3,o,0,0'>
+	))
+3	((	JJP	<fs name='JJP' drel='pof:VGF'>
+3.1	पूरी	JJ	<fs af='पूरी,adj,any,any,,any,,' name='पूरी'>|<fs af='पूरी,n,f,sg,3,d,0,0'>|<fs af='पूरी,n,f,sg,3,o,0,0'>
+	))
+4	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+4.1	कर	VM	<fs af='कर,n,m,sg,3,d,0,0' name='कर'>|<fs af='कर,n,m,pl,3,d,0,0'>|<fs af='कर,n,m,sg,3,o,0,0'>|<fs af='कर,v,any,any,any,,0,0'>
+4.2	दी	VAUX	<fs af='दे,v,f,sg,any,,या,yA' name='दी'>
+	))
+5	((	NP	<fs name='NP2' drel='r6:NP3'>
+5.1	दिनेश	NNPC	<fs af='दिनेश,n,m,sg,3,d,0,0' name='दिनेश'>|<fs af='दिनेश,n,m,pl,3,d,0,0'>|<fs af='दिनेश,n,m,sg,3,o,0,0'>
+5.2	कार्तिक	NNP	<fs af='कार्तिक,n,m,sg,3,d,0,0' name='कार्तिक'>|<fs af='कार्तिक,n,m,pl,3,d,0,0'>|<fs af='कार्तिक,n,m,sg,3,o,0,0'>|<fs af='कार्तिक,n,m,pl,3,o,0,0'>
+5.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+6	((	NP	<fs name='NP3' drel='k1:VGF'>
+6.1	उस	DEM	<fs af='वह,pn,any,sg,3,o,0,0' name='उस'>
+6.2	गलती	NN	<fs af='गलती,n,f,sg,3,d,0,0' name='गलती'>|<fs af='गलती,n,f,sg,3,o,0,0'>|<fs af='गल,v,f,sg,any,,ता,wA'>
+6.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+6.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="34" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='35'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	230	QC	<fs af='230,num,,,,,,' name='230'>
+1.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+1.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGNN'>
+2.1	आसान	JJ	<fs af='आसान,n,m,sg,3,d,0,0' name='आसान'>|<fs af='आसान,n,m,pl,3,d,0,0'>|<fs af='आसान,n,m,sg,3,o,0,0'>|<fs af='आसान,n,m,pl,3,o,0,0'>
+2.2	टार्गेट	NN	<fs af='टार्गेट,unk,,,,,,' name='टार्गेट'>
+2.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+3	((	JJP	<fs name='JJP' drel='pof:VGNN'>
+3.1	हासिल	JJ	<fs af='हासिल,adj,any,any,,any,,' name='हासिल'>|<fs af='हासिल,n,m,sg,3,d,0,0'>|<fs af='हासिल,n,m,pl,3,d,0,0'>|<fs af='हासिल,n,m,sg,3,o,0,0'>|<fs af='हासिल,n,m,pl,3,o,0,0'>
+	))
+4	((	VGNN	<fs name='VGNN' drel='rt:VGNF'>
+4.1	करने	VM	<fs af='कर,v,m,pl,any,,ना,nA' name='करने'>
+	))
+5	((	VGNF	<fs name='VGNF' drel='nmod__k1inv:NP3'>
+5.1	उतरी	VM	<fs af='उतर,v,f,sg,any,,या,yA' name='उतरी'>
+	))
+6	((	NP	<fs name='NP3' drel='rt:VGF'>
+6.1	वेस्ट	NNPC	<fs af='वेस्ट,n,m,sg,3,d,0,0' name='वेस्ट'>|<fs af='वेस्ट,n,m,pl,3,d,0,0'>|<fs af='वेस्ट,n,m,sg,3,o,0,0'>
+6.2	इंडीज	NNP	<fs af='इंडीज,n,m,sg,3,d,0,0' name='इंडीज'>|<fs af='इंडीज,n,m,pl,3,d,0,0'>|<fs af='इंडीज,n,m,sg,3,o,0,0'>
+6.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के2'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+6.4	लिए	PSP	<fs af='लिए,psp,,,,,,' name='लिए'>|<fs af='ले,v,m,pl,any,,या,yA'>
+	))
+7	((	NP	<fs name='NP4' drel='k1:VGF'>
+7.1	ओपनर	NN	<fs af='ओपनर,unk,,,,,,' name='ओपनर'>
+7.2	जॉन्सटन	NNPC	<fs af='जॉन्सटन,unk,,,,,,' name='जॉन्सटन'>
+7.3	चार्ल्स	NNP	<fs af='चार्ल्स,n,m,sg,3,d,0,0' name='चार्ल्स'>|<fs af='चार्ल्स,n,m,pl,3,d,0,0'>|<fs af='चार्ल्स,n,m,sg,3,o,0,0'>
+	))
+8	((	RBP	<fs name='RBP' drel='adv:VGF'>
+8.1	डटकर	RB	<fs af='डट,v,any,any,any,,कर,kara' name='डटकर'>
+	))
+9	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+9.1	खेल	VM	<fs af='खेल,n,m,sg,3,d,0,0' name='खेल'>|<fs af='खेल,n,m,pl,3,d,0,0'>|<fs af='खेल,n,m,sg,3,o,0,0'>|<fs af='खेल,v,any,any,any,,0,0'>
+9.2	रहे	VAUX	<fs af='रह,v,any,sg,2,,एं,e' name='रहे'>|<fs af='रह,v,any,sg,3,,ए,e'>|<fs af='रह,v,m,pl,any,,या,yA'>
+9.3	थे	VAUX	<fs af='था,v,m,pl,any,,था,WA' name='थे'>
+9.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="35" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='36'>
+1	((	NP	<fs name='NP' drel='ras-k1:VGF'>
+1.1	ड्वेन	NNPC	<fs af='ड्वेन,unk,,,,,,' name='ड्वेन'>
+1.2	ब्रावो	NNP	<fs af='ब्रावो,unk,,,,,,' name='ब्रावो'>
+1.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+1.4	साथ	NST	<fs af='साथ,adv,,,,,,' name='साथ'>|<fs af='साथ,psp,,,,,,'>
+	))
+2	((	VGNF	<fs name='VGNF' drel='vmod:VGF'>
+2.1	मिलकर	VM	<fs af='मिल,v,any,any,any,,कर,kara' name='मिलकर'>
+	))
+3	((	NP	<fs name='NP2' drel='k1:VGF'>
+3.1	उन्होंने	PRP	<fs af='उन्होंने,unk,,,,,,' name='उन्होंने'>
+	))
+4	((	NP	<fs name='NP3' drel='k2:VGF'>
+4.1	मैच	JJC	<fs af='मैच,n,m,sg,3,d,0,0' name='मैच'>|<fs af='मैच,n,m,pl,3,d,0,0'>|<fs af='मैच,n,m,sg,3,o,0,0'>
+4.2	विनिंग	JJ	<fs af='विनिंग,unk,,,,,,' name='विनिंग'>
+4.3	पार्टनरशिप	NN	<fs af='पार्टनरशिप,unk,,,,,,' name='पार्टनरशिप'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+5.1	जमा	VM	<fs af='जमा,v,any,any,any,,0,0' name='जमा'>|<fs af='जम,v,m,sg,any,,या,yA'>
+5.2	ली	VAUX	<fs af='ले,v,f,sg,any,,या,yA' name='ली'>
+5.3	थी	VAUX	<fs af='था,v,f,sg,any,,था,WA' name='थी'>
+5.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="36" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='37'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	चार्ल्स	NNP	<fs af='चार्ल्स,n,m,sg,3,d,0,0' name='चार्ल्स'>|<fs af='चार्ल्स,n,m,pl,3,d,0,0'>|<fs af='चार्ल्स,n,m,sg,3,o,0,0'>
+1.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+2	((	NP	<fs name='NP2' drel='k7:VGNF'>
+2.1	महज	RP	<fs af='महज,adj,any,any,,any,,' name='महज'>
+2.2	100	QC	<fs af='100,num,,,,,,' name='100'>
+2.3	गेंदों	NN	<fs af='गेंदा,n,m,pl,3,o,0,0' name='गेंदों'>|<fs af='गेंद,n,f,pl,3,o,0,0'>
+2.4	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+3	((	NP	<fs name='NP3' drel='ccof:CCP'>
+3.1	8	QC	<fs af='8,num,,,,,,' name='8'>
+3.2	चौके	NN	<fs af='चौका,n,m,pl,3,d,0,0' name='चौके'>|<fs af='चौका,n,m,sg,3,o,0,0'>
+	))
+4	((	CCP	<fs name='CCP' drel='k2:VGNF'>
+4.1	व	CC	<fs af='व,avy,,,,,,' name='व'>
+	))
+5	((	NP	<fs name='NP4' drel='ccof:CCP'>
+5.1	4	QC	<fs af='4,num,,,,,,' name='4'>
+5.2	छक्के	NN	<fs af='छक्का,n,m,pl,3,d,0,0' name='छक्के'>|<fs af='छक्का,n,m,sg,3,o,0,0'>
+	))
+6	((	VGNF	<fs name='VGNF' drel='nmod__k1inv:NP5'>
+6.1	लगाते	VM	<fs af='लगा,v,m,pl,any,,ता,wA' name='लगाते'>
+6.2	हुए	VAUX	<fs af='हो,v,m,pl,any,,या,yA' name='हुए'>
+	))
+7	((	NP	<fs name='NP5' drel='k2:VGF'>
+7.1	97	QC	<fs af='97,num,,,,,,' name='97'>
+7.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+	))
+8	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+8.1	बनाए	VM	<fs af='बना,v,any,sg,2,,एं,e' name='बनाए'>|<fs af='बना,v,any,sg,3,,ए,e'>|<fs af='बना,v,m,pl,any,,या,yA'>
+8.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="37" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='38'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	वे	PRP	<fs af='वा,adj,m,sg,,o,,' name='वे'>|<fs af='वा,adj,m,pl,,d,,'>|<fs af='वा,adj,m,pl,,o,,'>|<fs af='वह,pn,any,pl,3,d,0,0'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGF'>
+2.1	शतक	NN	<fs af='शतक,n,m,sg,3,d,0,0' name='शतक'>|<fs af='शतक,n,m,pl,3,d,0,0'>|<fs af='शतक,n,m,sg,3,o,0,0'>
+2.2	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+3	((	RBP	<fs name='RBP' drel='adv:VGF'>
+3.1	जरूर	RB	<fs af='जरूर,adv,,,,,,' name='जरूर'>
+	))
+4	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+4.1	चूके	VM	<fs af='चूक,v,any,sg,2,,एं,e' name='चूके'>|<fs af='चूक,v,any,sg,3,,ए,e'>|<fs af='चूक,v,m,pl,any,,या,yA'>
+4.2	,	SYM	<fs af='&comma;,punc,,,,,,' name=','>
+	))
+5	((	CCP	<fs name='CCP'>
+5.1	लेकिन	CC	<fs af='लेकिन,avy,,,,,,' name='लेकिन'>
+	))
+6	((	NP	<fs name='NP3' drel='r6:NP4'>
+6.1	अपनी	PRP	<fs af='अपनी,pn,any,any,any,o,0,0' name='अपनी'>|<fs af='अपनी,adj,f,any,,any,,'>|<fs af='अपनी,n,f,sg,3,d,0,0'>|<fs af='अपनी,n,f,sg,3,o,0,0'>
+	))
+7	((	NP	<fs name='NP4' drel='k1:VGNF'>
+7.1	टीम	NN	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+7.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+8	((	NP	<fs name='NP5' drel='k2:VGNF'>
+8.1	जीत	NN	<fs af='जीत,v,any,any,any,,0,0' name='जीत'>|<fs af='जीत,n,f,sg,3,d,0,0'>|<fs af='जीत,n,f,sg,3,o,0,0'>
+	))
+9	((	VGNF	<fs name='VGNF' drel='vmod:VGF2'>
+9.1	दिलाकर	VM	<fs af='दिला,v,any,any,any,,कर,kara' name='दिलाकर'>
+9.2	ही	RP	<fs af='ही,adv,,,,,,' name='ही'>|<fs af='ही,psp,,,,,,'>
+	))
+10	((	JJP	<fs name='JJP' drel='pof:VGF2'>
+10.1	आउट	JJ	<fs af='आउट,n,m,sg,3,d,0,0' name='आउट'>|<fs af='आउट,n,m,pl,3,d,0,0'>|<fs af='आउट,n,m,sg,3,o,0,0'>|<fs af='आउट,n,m,pl,3,o,0,0'>
+	))
+11	((	VGF	<fs name='VGF2' voicetype='active' stype='declarative' drel='ccof:CCP'>
+11.1	हुए	VM	<fs af='हो,v,m,pl,any,,या,yA' name='हुए'>
+11.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="38" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='39'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	विराट	NNPC	<fs af='विराट,n,m,sg,3,d,0,0' name='विराट'>|<fs af='विराट,n,m,pl,3,d,0,0'>|<fs af='विराट,n,m,sg,3,o,0,0'>|<fs af='विराट,adj,any,any,,any,,'>
+1.2	कोहली	NNP	<fs af='कोहली,n,f,sg,3,d,0,0' name='कोहली'>|<fs af='कोहली,n,f,sg,3,o,0,0'>
+1.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	कप्तानी	NN	<fs af='कप्तानी,n,f,sg,3,d,0,0' name='कप्तानी'>|<fs af='कप्तानी,n,f,pl,3,d,0,0'>|<fs af='कप्तानी,n,f,sg,3,o,0,0'>|<fs af='कप्तानी,n,f,pl,3,o,0,0'>
+	))
+3	((	NP	<fs name='NP3' drel='r6:NP4'>
+3.1	चार्ल्स	NNP	<fs af='चार्ल्स,n,m,sg,3,d,0,0' name='चार्ल्स'>|<fs af='चार्ल्स,n,m,pl,3,d,0,0'>|<fs af='चार्ल्स,n,m,sg,3,o,0,0'>
+3.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की2'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+4	((	NP	<fs name='NP4' drel='k7:VGF'>
+4.1	चालाक	JJ	<fs af='चालाक,n,m,sg,3,d,0,0' name='चालाक'>|<fs af='चालाक,n,m,pl,3,d,0,0'>|<fs af='चालाक,n,m,sg,3,o,0,0'>|<fs af='चालाक,adj,any,any,,any,,'>
+4.2	बल्लेबाजी	NN	<fs af='बल्लेबाजी,n,f,sg,3,d,0,0' name='बल्लेबाजी'>|<fs af='बल्लेबाजी,n,f,pl,3,d,0,0'>|<fs af='बल्लेबाजी,n,f,sg,3,o,0,0'>|<fs af='बल्लेबाजी,n,f,pl,3,o,0,0'>
+4.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+4.4	आगे	NST	<fs af='आगे,adv,,,,,,' name='आगे'>|<fs af='आगे,psp,,,,,,'>|<fs af='आगा,n,m,pl,3,d,0,0'>|<fs af='आगा,n,m,sg,3,o,0,0'>|<fs af='आगा,n,m,pl,3,o,0,0'>
+	))
+5	((	JJP	<fs name='JJP' drel='k1s:VGF'>
+5.1	फीकी	JJ	<fs af='फीकी,unk,,,,,,' name='फीकी'>
+	))
+6	((	JJP	<fs name='JJP2' drel='pof:VGF'>
+6.1	साबित	JJ	<fs af='साबित,n,m,sg,3,d,0,0' name='साबित'>|<fs af='साबित,n,m,pl,3,d,0,0'>|<fs af='साबित,n,m,sg,3,o,0,0'>
+	))
+7	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+7.1	हो	VM	<fs af='हो,v,any,any,any,,0,0' name='हो'>|<fs af='हो,v,any,sg,2,,एं,e'>|<fs af='हो,v,any,sg,3,,ए,e'>|<fs af='है,v,any,pl,2,,है,hE'>
+7.2	रही	VAUX	<fs af='रह,v,f,sg,any,,या,yA' name='रही'>
+7.3	थी	VAUX	<fs af='था,v,f,sg,any,,था,WA' name='थी'>
+7.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="39" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='40'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	कोई	PRP	<fs af='कोई,pn,any,sg,3,d,0,0' name='कोई'>|<fs af='कोई,pn,any,pl,3,d,0,0'>
+1.2	भी	RP	<fs af='भी,adv,,,,,,' name='भी'>|<fs af='भी,adv,,,,,,'>|<fs af='भी,avy,,,,,,'>|<fs af='भी,psp,,,,,,'>
+1.3	इंडियन	JJ	<fs af='इंडियन,n,m,sg,3,d,0,0' name='इंडियन'>|<fs af='इंडियन,n,m,pl,3,d,0,0'>|<fs af='इंडियन,n,m,sg,3,o,0,0'>|<fs af='इंडियन,n,m,pl,3,o,0,0'>
+1.4	गेंदबाज	NN	<fs af='गेँदबाज,n,m,sg,,d,0,0' name='गेंदबाज'>|<fs af='गेँदबाज,n,m,pl,,d,0,0'>|<fs af='गेँदबाज,n,m,sg,,o,0,0'>|<fs af='गेँदबाज,n,m,pl,,o,0,0'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGNN'>
+2.1	उन्हें	PRP	<fs af='उन्हें,unk,,,,,,' name='उन्हें'>
+	))
+3	((	VGNN	<fs name='VGNN' drel='k7:VGF'>
+3.1	रोकने	VM	<fs af='रोक,v,m,pl,any,,ना,nA' name='रोकने'>
+3.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+4	((	JJP	<fs name='JJP' drel='pof:VGF'>
+4.1	सफल	JJ	<fs af='सफल,n,m,sg,3,d,0,0' name='सफल'>|<fs af='सफल,n,m,pl,3,d,0,0'>|<fs af='सफल,n,m,sg,3,o,0,0'>|<fs af='सफल,n,m,pl,3,o,0,0'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+5.1	नहीं	NEG	<fs af='नहीं,adv,,,,,,' name='नहीं'>
+5.2	हो	VM	<fs af='हो,v,any,any,any,,0,0' name='हो'>|<fs af='हो,v,any,sg,2,,एं,e'>|<fs af='हो,v,any,sg,3,,ए,e'>|<fs af='है,v,any,pl,2,,है,hE'>
+5.3	सका	VAUX	<fs af='सक,v,m,sg,any,,या,yA' name='सका'>
+5.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="40" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='41'>
+1	((	NP	<fs name='NP' drel='k7:VGF'>
+1.1	38वें	QO	<fs af='38वें,unk,,,,,,' name='38वें'>
+1.2	ओवर	NN	<fs af='ओवर,unk,,,,,,' name='ओवर'>
+1.3	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+2	((	NP	<fs name='NP2' drel='nmod:NP3'>
+2.1	ऑफ	JJ	<fs af='ऑफ,n,m,sg,3,d,0,0' name='ऑफ'>|<fs af='ऑफ,n,m,pl,3,d,0,0'>|<fs af='ऑफ,n,m,sg,3,o,0,0'>|<fs af='ऑफ,psp,,,,,,'>
+2.2	स्पिनर	NN	<fs af='स्पिनर,unk,,,,,,' name='स्पिनर'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	आर	NNPC	<fs af='आर,n,m,sg,3,d,0,0' name='आर'>|<fs af='आर,n,m,pl,3,d,0,0'>|<fs af='आर,n,m,sg,3,o,0,0'>
+3.2	अश्विन	NNP	<fs af='अश्विन,n,m,sg,3,d,0,0' name='अश्विन'>|<fs af='अश्विन,n,m,pl,3,d,0,0'>|<fs af='अश्विन,n,m,sg,3,o,0,0'>
+3.3	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+4	((	NP	<fs name='NP4' drel='adv:VGF'>
+4.1	बड़ी	JJ	<fs af='बडी,adj,f,any,,any,,' name='बड़ी'>
+4.2	मेहनत	NN	<fs af='मेहनत,n,f,sg,3,d,0,0' name='मेहनत'>|<fs af='मेहनत,n,f,pl,3,d,0,0'>|<fs af='मेहनत,n,f,sg,3,o,0,0'>|<fs af='मेहनत,n,f,pl,3,o,0,0'>
+4.3	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+5	((	NP	<fs name='NP5' drel='k2:VGF'>
+5.1	एक	QC	<fs af='एक,adj,any,any,,any,,' name='एक'>|<fs af='एक,n,m,sg,3,d,0,0'>|<fs af='एक,n,m,pl,3,d,0,0'>|<fs af='एक,n,m,sg,3,o,0,0'>|<fs af='एक,n,m,pl,3,o,0,0'>
+5.2	मौका	NN	<fs af='मौका,n,m,sg,3,d,0,0' name='मौका'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+6.1	बनाया	VM	<fs af='बना,v,m,sg,any,,या,yA' name='बनाया'>
+6.2	,	SYM	<fs af='&comma;,punc,,,,,,' name=','>
+	))
+7	((	CCP	<fs name='CCP'>
+7.1	लेकिन	CC	<fs af='लेकिन,avy,,,,,,' name='लेकिन'>
+	))
+8	((	NP	<fs name='NP6' drel='r6:NP7'>
+8.1	विकेटकीपर	NN	<fs af='विकेटकीपर,n,m,sg,3,d,0,0' name='विकेटकीपर'>|<fs af='विकेटकीपर,n,m,pl,3,d,0,0'>|<fs af='विकेटकीपर,n,m,sg,3,o,0,0'>
+8.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+9	((	NP	<fs name='NP7' drel='rh:VGF2'>
+9.1	गलती	NN	<fs af='गलती,n,f,sg,3,d,0,0' name='गलती'>|<fs af='गलती,n,f,sg,3,o,0,0'>|<fs af='गल,v,f,sg,any,,ता,wA'>
+9.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+9.3	कारण	PSP	<fs af='कारण,n,m,sg,3,d,0,0' name='कारण'>|<fs af='कारण,n,m,pl,3,d,0,0'>|<fs af='कारण,n,m,sg,3,o,0,0'>|<fs af='कारण,psp,,,,,,'>
+	))
+10	((	NP	<fs name='NP8' drel='k1:VGF2'>
+10.1	सब	QF	<fs af='सब,adj,any,any,,any,,' name='सब'>|<fs af='सब,pn,any,sg,3,d,0,0'>|<fs af='सब,pn,any,pl,3,d,0,0'>|<fs af='सब,pn,any,sg,3,d,0,0'>|<fs af='सब,pn,any,pl,3,d,0,0'>
+	))
+11	((	VGF	<fs name='VGF2' voicetype='active' stype='declarative' drel='ccof:CCP'>
+11.1	बिगड़	VM	<fs af='बिगड,v,any,any,any,,0,0' name='बिगड़'>
+11.2	गया	VAUX	<fs af='गया,unk,,,,,,' name='गया'>
+11.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="41" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='42'>
+1	((	NP	<fs name='NP' drel='k7:VGF'>
+1.1	37.3वीं	QO	<fs af='37.3वीं,unk,,,,,,' name='37.3वीं'>
+1.2	गेंद	NN	<fs af='गेंद,n,f,sg,3,d,0,0' name='गेंद'>|<fs af='गेंद,n,f,sg,3,o,0,0'>
+1.3	पर	PSP	<fs af='पर,avy,,,,,,' name='पर'>|<fs af='पर,psp,,,,,,'>|<fs af='पर,psp,,,,,,'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	अश्विन	NNP	<fs af='अश्विन,n,m,sg,3,d,0,0' name='अश्विन'>|<fs af='अश्विन,n,m,pl,3,d,0,0'>|<fs af='अश्विन,n,m,sg,3,o,0,0'>
+2.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGF'>
+3.1	चार्ल्स	NNP	<fs af='चार्ल्स,n,m,sg,3,d,0,0' name='चार्ल्स'>|<fs af='चार्ल्स,n,m,pl,3,d,0,0'>|<fs af='चार्ल्स,n,m,sg,3,o,0,0'>
+3.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+4	((	NP	<fs name='NP4' drel='k7:VGF'>
+4.1	फिरकी	NN	<fs af='फिरकी,n,f,sg,3,d,0,0' name='फिरकी'>|<fs af='फिरकी,n,f,sg,3,o,0,0'>
+4.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+5.1	फंसाया	VM	<fs af='फँसा,v,m,sg,any,,या,yA' name='फंसाया'>
+5.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="42" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='43'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	कैरेबियाई	JJ	<fs af='कैरेबियाई,unk,,,,,,' name='कैरेबियाई'>
+1.2	बल्लेबाज	NN	<fs af='बल्लेबाज,n,m,sg,3,d,0,0' name='बल्लेबाज'>|<fs af='बल्लेबाज,n,m,pl,3,d,0,0'>|<fs af='बल्लेबाज,n,m,sg,3,o,0,0'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGF'>
+2.1	गेंद	NN	<fs af='गेंद,n,f,sg,3,d,0,0' name='गेंद'>|<fs af='गेंद,n,f,sg,3,o,0,0'>
+2.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+3	((	NP	<fs name='NP3' drel='adv:VGF'>
+3.1	पूरी	JJ	<fs af='पूरी,adj,any,any,,any,,' name='पूरी'>|<fs af='पूरी,n,f,sg,3,d,0,0'>|<fs af='पूरी,n,f,sg,3,o,0,0'>
+3.2	तरह	NN	<fs af='तरह,n,m,sg,3,d,0,0' name='तरह'>|<fs af='तरह,n,m,pl,3,d,0,0'>|<fs af='तरह,n,m,sg,3,o,0,0'>|<fs af='तरह,psp,,,,,,'>
+	))
+4	((	BLK	<fs name='BLK' drel='pof:VGF'>
+4.1	मिस	UNK	<fs af='मिस,n,m,sg,3,d,0,0' name='मिस'>|<fs af='मिस,n,m,pl,3,d,0,0'>|<fs af='मिस,n,m,sg,3,o,0,0'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+5.1	कर	VM	<fs af='कर,n,m,sg,3,d,0,0' name='कर'>|<fs af='कर,n,m,pl,3,d,0,0'>|<fs af='कर,n,m,sg,3,o,0,0'>|<fs af='कर,v,any,any,any,,0,0'>
+5.2	चुके	VAUX	<fs af='चुक,v,any,sg,2,,एं,e' name='चुके'>|<fs af='चुक,v,any,sg,3,,ए,e'>|<fs af='चुक,v,m,pl,any,,या,yA'>
+5.3	थे	VAUX	<fs af='था,v,m,pl,any,,था,WA' name='थे'>
+5.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="43" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='44'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	देरी	NN	<fs af='देरी,n,f,sg,3,d,0,0' name='देरी'>|<fs af='देरी,n,f,pl,3,d,0,0'>|<fs af='देरी,n,f,sg,3,o,0,0'>|<fs af='देरी,n,f,pl,3,o,0,0'>
+	))
+2	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+2.1	थी	VM	<fs af='था,v,f,sg,any,,था,WA' name='थी'>
+	))
+3	((	BLK	<fs name='BLK' drel='vmod:VGF'>
+3.1	तो	RPC	<fs af='तो,avy,,,,,,' name='तो'>|<fs af='तो,psp,,,,,,'>
+3.2	बस	RP	<fs af='बस,v,any,any,any,,0,0' name='बस'>|<fs af='बस,adv,,,,,,'>|<fs af='बस,n,f,sg,3,d,0,0'>|<fs af='बस,n,f,sg,3,o,0,0'>
+	))
+4	((	NP	<fs name='NP2' drel='k1:VGNN'>
+4.1	विकेटकीपर	NN	<fs af='विकेटकीपर,n,m,sg,3,d,0,0' name='विकेटकीपर'>|<fs af='विकेटकीपर,n,m,pl,3,d,0,0'>|<fs af='विकेटकीपर,n,m,sg,3,o,0,0'>
+4.2	द्वारा	PSP	<fs af='द्वारा,psp,,,,,,' name='द्वारा'>|<fs af='द्वारा,psp,,,,,,'>
+	))
+5	((	NP	<fs name='NP3' drel='k2:VGNF'>
+5.1	गेंद	NN	<fs af='गेंद,n,f,sg,3,d,0,0' name='गेंद'>|<fs af='गेंद,n,f,sg,3,o,0,0'>
+5.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+6	((	VGNF	<fs name='VGNF' drel='vmod:VGNN'>
+6.1	लपककर	VM	<fs af='लपककर,unk,,,,,,' name='लपककर'>
+	))
+7	((	NP	<fs name='NP4' drel='pof:VGNN'>
+7.1	स्टंपिंग	NN	<fs af='स्टंपिंग,unk,,,,,,' name='स्टंपिंग'>
+	))
+8	((	VGNN	<fs name='VGNN' drel='r6:NP'>
+8.1	करने	VM	<fs af='कर,v,m,pl,any,,ना,nA' name='करने'>
+8.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+8.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="44" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='45'>
+1	((	CCP	<fs name='CCP'>
+1.1	लेकिन	CC	<fs af='लेकिन,avy,,,,,,' name='लेकिन'>
+	))
+2	((	NP	<fs name='NP' drel='k1:VGF'>
+2.1	कार्तिक	NNP	<fs af='कार्तिक,n,m,sg,3,d,0,0' name='कार्तिक'>|<fs af='कार्तिक,n,m,pl,3,d,0,0'>|<fs af='कार्तिक,n,m,sg,3,o,0,0'>|<fs af='कार्तिक,n,m,pl,3,o,0,0'>
+	))
+3	((	RBP	<fs name='RBP' drel='adv:VGF'>
+3.1	शायद	RB	<fs af='शायद,adv,,,,,,' name='शायद'>
+	))
+4	((	NP	<fs name='NP2' drel='r6:NP3'>
+4.1	घर	NN	<fs af='घर,n,m,sg,3,d,0,0' name='घर'>|<fs af='घर,n,m,pl,3,d,0,0'>|<fs af='घर,n,m,sg,3,o,0,0'>
+4.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+5	((	NP	<fs name='NP3' drel='k7:VGF'>
+5.1	यादों	NN	<fs af='याद,n,f,pl,3,o,0,0' name='यादों'>
+5.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+6.1	खोए	VM	<fs af='खो,v,any,sg,3,,ए,e' name='खोए'>|<fs af='खो,v,m,pl,any,,या,yA'>|<fs af='खोआ,n,m,pl,3,d,0,0'>|<fs af='खोआ,n,m,sg,3,o,0,0'>
+6.2	हुए	VAUX	<fs af='हो,v,m,pl,any,,या,yA' name='हुए'>
+6.3	थे	VAUX	<fs af='था,v,m,pl,any,,था,WA' name='थे'>
+6.4	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="45" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='46'>
+1	((	NP	<fs name='NP' drel='k4a:VGF'>
+1.1	उन्हें	PRP	<fs af='उन्हें,unk,,,,,,' name='उन्हें'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	जरा	QF	<fs af='जरा,adv,,,,,,' name='जरा'>
+2.2	भी	RP	<fs af='भी,adv,,,,,,' name='भी'>|<fs af='भी,adv,,,,,,'>|<fs af='भी,avy,,,,,,'>|<fs af='भी,psp,,,,,,'>
+2.3	होश	NN	<fs af='होश,n,m,sg,3,d,0,0' name='होश'>|<fs af='होश,n,m,pl,3,d,0,0'>|<fs af='होश,n,m,sg,3,o,0,0'>|<fs af='होश,n,m,pl,3,o,0,0'>
+	))
+3	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP'>
+3.1	नहीं	NEG	<fs af='नहीं,adv,,,,,,' name='नहीं'>
+3.2	रहा	VM	<fs af='रह,v,m,sg,any,,या,yA' name='रहा'>
+	))
+4	((	CCP	<fs name='CCP'>
+4.1	और	CC	<fs af='और,avy,,,,,,' name='और'>
+	))
+5	((	NP	<fs name='NP3' drel='k1:VGF2'>
+5.1	गेंद	NN	<fs af='गेंद,n,f,sg,3,d,0,0' name='गेंद'>|<fs af='गेंद,n,f,sg,3,o,0,0'>
+	))
+6	((	NP	<fs name='NP4' drel='k5:VGF2'>
+6.1	उनके	PRP	<fs af='उनके,unk,,,,,,' name='उनके'>
+6.2	पास	NST	<fs af='पास,n,m,sg,3,d,0,0' name='पास'>|<fs af='पास,n,m,pl,3,d,0,0'>|<fs af='पास,n,m,sg,3,o,0,0'>|<fs af='पास,psp,,,,,,'>
+6.3	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+7	((	NP	<fs name='NP5' drel='rt:VGF2'>
+7.1	चौके	NN	<fs af='चौका,n,m,pl,3,d,0,0' name='चौके'>|<fs af='चौका,n,m,sg,3,o,0,0'>
+7.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+7.3	लिए	PSP	<fs af='लिए,psp,,,,,,' name='लिए'>|<fs af='ले,v,m,pl,any,,या,yA'>
+	))
+8	((	VGF	<fs name='VGF2' voicetype='active' stype='declarative' drel='ccof:CCP'>
+8.1	चली	VM	<fs af='चल,v,f,sg,any,,या,yA' name='चली'>
+8.2	गई	VAUX	<fs af='गई,unk,,,,,,' name='गई'>
+8.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="46" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='47'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	कार्तिक	NNP	<fs af='कार्तिक,n,m,sg,3,d,0,0' name='कार्तिक'>|<fs af='कार्तिक,n,m,pl,3,d,0,0'>|<fs af='कार्तिक,n,m,sg,3,o,0,0'>|<fs af='कार्तिक,n,m,pl,3,o,0,0'>
+1.2	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	इस	DEM	<fs af='यह,pn,any,sg,3,o,0,0' name='इस'>|<fs af='यह,pn,any,sg,3,o,0,0'>
+2.2	गलती	NN	<fs af='गलती,n,f,sg,3,d,0,0' name='गलती'>|<fs af='गलती,n,f,sg,3,o,0,0'>|<fs af='गल,v,f,sg,any,,ता,wA'>
+2.3	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGF'>
+3.1	खामियाजा	NN	<fs af='खामियाजा,n,m,sg,3,d,0,0' name='खामियाजा'>|<fs af='खामियाजा,n,m,sg,3,d,0,0'>
+	))
+4	((	NP	<fs name='NP4' drel='k1:VGF'>
+4.1	टीम	NN	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+4.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))
+5	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+5.1	भुगतना	VM	<fs af='भुगत,v,m,sg,any,,ना,nA' name='भुगतना'>
+5.2	पड़ा	VAUX	<fs af='पड,v,m,sg,any,,या,yA' name='पड़ा'>
+5.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="47" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='48'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	टीम	NNPC	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+1.2	इंडिया	NNP	<fs af='इंडिया,n,m,sg,3,d,0,0' name='इंडिया'>|<fs af='इंडिया,n,m,sg,3,d,0,0'>|<fs af='इंडिया,n,m,pl,3,d,0,0'>|<fs af='इंडिया,n,m,sg,3,o,0,0'>
+1.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	जीत	NN	<fs af='जीत,v,any,any,any,,0,0' name='जीत'>|<fs af='जीत,n,f,sg,3,d,0,0'>|<fs af='जीत,n,f,sg,3,o,0,0'>
+	))
+3	((	NP	<fs name='NP3' drel='rh:VGF'>
+3.1	महज	RP	<fs af='महज,adj,any,any,,any,,' name='महज'>
+3.2	1	QC	<fs af='1,num,,,,,,' name='1'>
+3.3	विकेट	NN	<fs af='विकेट,n,m,sg,3,d,0,0' name='विकेट'>|<fs af='विकेट,n,m,pl,3,d,0,0'>|<fs af='विकेट,n,m,sg,3,o,0,0'>
+3.4	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+3.5	कारण	PSP	<fs af='कारण,n,m,sg,3,d,0,0' name='कारण'>|<fs af='कारण,n,m,pl,3,d,0,0'>|<fs af='कारण,n,m,sg,3,o,0,0'>|<fs af='कारण,psp,,,,,,'>
+	))
+4	((	NP	<fs name='NP4' drel='k7:VGF'>
+4.1	हार	NN	<fs af='हार,n,m,sg,3,d,0,0' name='हार'>|<fs af='हार,n,m,pl,3,d,0,0'>|<fs af='हार,n,m,sg,3,o,0,0'>|<fs af='हार,v,any,any,any,,0,0'>|<fs af='हार,n,f,sg,3,d,0,0'>|<fs af='हार,n,f,sg,3,o,0,0'>
+4.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+5	((	JJP	<fs name='JJP' drel='pof:VGF'>
+5.1	तब्दील	JJ	<fs af='तब्दील,n,m,sg,3,d,0,0' name='तब्दील'>|<fs af='तब्दील,n,m,pl,3,d,0,0'>|<fs af='तब्दील,n,m,sg,3,o,0,0'>|<fs af='तब्दील,adj,any,any,,any,,'>|<fs af='तब्दील,n,m,sg,3,d,0,0'>|<fs af='तब्दील,n,m,pl,3,d,0,0'>|<fs af='तब्दील,n,m,sg,3,o,0,0'>|<fs af='तब्दील,n,m,pl,3,o,0,0'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+6.1	हो	VM	<fs af='हो,v,any,any,any,,0,0' name='हो'>|<fs af='हो,v,any,sg,2,,एं,e'>|<fs af='हो,v,any,sg,3,,ए,e'>|<fs af='है,v,any,pl,2,,है,hE'>
+6.2	गई	VAUX	<fs af='गई,unk,,,,,,' name='गई'>
+6.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="48" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='49'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	यही	PRP	<fs af='यही,avy,,,,,,' name='यही'>|<fs af='यह,pn,any,pl,3,o,0,0'>
+	))
+2	((	NP	<fs name='NP2' drel='k1s:VGF'>
+2.1	वह	PRP	<fs af='वह,pn,any,sg,3,d,0,0' name='वह'>
+2.2	पल	NN	<fs af='पल,n,m,sg,3,d,0,0' name='पल'>|<fs af='पल,n,m,pl,3,d,0,0'>|<fs af='पल,n,m,sg,3,o,0,0'>|<fs af='पल,v,any,any,any,,0,0'>
+	))
+3	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+3.1	था	VM	<fs af='था,v,m,sg,any,,था,WA' name='था'>
+	))
+4	((	NP	<fs name='NP3' drel='k7t:VGF2'>
+4.1	जब	PRP	<fs af='जब,adv,,,,,,' name='जब'>|<fs af='जब,avy,,,,,,'>
+	))
+5	((	NP	<fs name='NP4' drel='r6:NP6'>
+5.1	टीम	NNPC	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+5.2	इंडिया	NNP	<fs af='इंडिया,n,m,sg,3,d,0,0' name='इंडिया'>|<fs af='इंडिया,n,m,sg,3,d,0,0'>|<fs af='इंडिया,n,m,pl,3,d,0,0'>|<fs af='इंडिया,n,m,sg,3,o,0,0'>
+5.3	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>|<fs af='का,psp,m,pl,,d,का,kA'>|<fs af='का,psp,m,pl,,o,का,kA'>
+	))
+6	((	NP	<fs name='NP5' drel='k5:VGF2'>
+6.1	हाथ	NN	<fs af='हाथ,n,m,sg,3,d,0,0' name='हाथ'>|<fs af='हाथ,n,m,pl,3,d,0,0'>|<fs af='हाथ,n,m,sg,3,o,0,0'>
+6.2	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+7	((	NP	<fs name='NP6' drel='k1:VGF2'>
+7.1	मैच	NN	<fs af='मैच,n,m,sg,3,d,0,0' name='मैच'>|<fs af='मैच,n,m,pl,3,d,0,0'>|<fs af='मैच,n,m,sg,3,o,0,0'>
+	))
+8	((	VGF	<fs name='VGF2' voicetype='active' stype='declarative' drel='nmod__relc:NP2'>
+8.1	निकल	VM	<fs af='निकल,v,any,any,any,,0,0' name='निकल'>
+8.2	गया	VAUX	<fs af='गया,unk,,,,,,' name='गया'>
+8.3	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="49" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='50'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	टीम	NNPC	<fs af='टीम,n,f,sg,3,d,0,0' name='टीम'>|<fs af='टीम,n,f,sg,3,o,0,0'>
+1.2	इंडिया	NNP	<fs af='इंडिया,n,m,sg,3,d,0,0' name='इंडिया'>|<fs af='इंडिया,n,m,sg,3,d,0,0'>|<fs af='इंडिया,n,m,pl,3,d,0,0'>|<fs af='इंडिया,n,m,sg,3,o,0,0'>
+1.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+2	((	NP	<fs name='NP2' drel='k7:VGF'>
+2.1	हार	NN	<fs af='हार,n,m,sg,3,d,0,0' name='हार'>|<fs af='हार,n,m,pl,3,d,0,0'>|<fs af='हार,n,m,sg,3,o,0,0'>|<fs af='हार,v,any,any,any,,0,0'>|<fs af='हार,n,f,sg,3,d,0,0'>|<fs af='हार,n,f,sg,3,o,0,0'>
+2.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	जितना	DEM	<fs af='जितना,adv,,,,,,' name='जितना'>|<fs af='जितना,adj,m,sg,,d,,'>
+3.2	हाथ	NN	<fs af='हाथ,n,m,sg,3,d,0,0' name='हाथ'>|<fs af='हाथ,n,m,pl,3,d,0,0'>|<fs af='हाथ,n,m,sg,3,o,0,0'>
+	))
+4	((	NP	<fs name='NP4' drel='r6:NP5'>
+4.1	दिनेश	NNPC	<fs af='दिनेश,n,m,sg,3,d,0,0' name='दिनेश'>|<fs af='दिनेश,n,m,pl,3,d,0,0'>|<fs af='दिनेश,n,m,sg,3,o,0,0'>
+4.2	कार्तिक	NNP	<fs af='कार्तिक,n,m,sg,3,d,0,0' name='कार्तिक'>|<fs af='कार्तिक,n,m,pl,3,d,0,0'>|<fs af='कार्तिक,n,m,sg,3,o,0,0'>|<fs af='कार्तिक,n,m,pl,3,o,0,0'>
+4.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की2'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+5	((	NP	<fs name='NP5' drel='r6:NP3'>
+5.1	गलती	NN	<fs af='गलती,n,f,sg,3,d,0,0' name='गलती'>|<fs af='गलती,n,f,sg,3,o,0,0'>|<fs af='गल,v,f,sg,any,,ता,wA'>
+5.2	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))
+6	((	VGF	<fs name='VGF' voicetype='active' stype='declarative' drel='nmod__relc:NP6'>
+6.1	रहा	VM	<fs af='रह,v,m,sg,any,,या,yA' name='रहा'>
+	))
+7	((	NP	<fs name='NP6' drel='k1:VGF2'>
+7.1	उतना	DEM	<fs af='उतना,adv,,,,,,' name='उतना'>
+7.2	ही	RP	<fs af='ही,adv,,,,,,' name='ही'>|<fs af='ही,psp,,,,,,'>
+7.3	योगदान	NN	<fs af='योगदान,n,m,sg,3,d,0,0' name='योगदान'>|<fs af='योगदान,n,m,pl,3,d,0,0'>|<fs af='योगदान,n,m,sg,3,o,0,0'>
+	))
+8	((	NP	<fs name='NP7' drel='r6:NP6'>
+8.1	डैरेन	NNPC	<fs af='डैरेन,unk,,,,,,' name='डैरेन'>
+8.2	ब्रावो	NNP	<fs af='ब्रावो,unk,,,,,,' name='ब्रावो'>
+8.3	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का2'>
+8.4	भी	RP	<fs af='भी,adv,,,,,,' name='भी'>|<fs af='भी,adv,,,,,,'>|<fs af='भी,avy,,,,,,'>|<fs af='भी,psp,,,,,,'>
+	))
+9	((	VGF	<fs name='VGF2' voicetype='active' stype='declarative'>
+9.1	रहा	VM	<fs af='रह,v,m,sg,any,,या,yA' name='रहा2'>
+9.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+<tb number="50" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id='51'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ब्रावो	NNP	<fs af='ब्रावो,unk,,,,,,' name='ब्रावो'>
+1.2	ने	PSP	<fs af='ने,psp,,,,,,' name='ने'>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:CCP'>
+2.1	5	QC	<fs af='5,num,,,,,,' name='5'>
+2.2	चौके	NN	<fs af='चौका,n,m,pl,3,d,0,0' name='चौके'>|<fs af='चौका,n,m,sg,3,o,0,0'>
+	))
+3	((	CCP	<fs name='CCP' drel='ras-k1:VGNF'>
+3.1	और	CC	<fs af='और,avy,,,,,,' name='और'>
+	))
+4	((	NP	<fs name='NP3' drel='ccof:CCP'>
+4.1	1	QC	<fs af='1,num,,,,,,' name='1'>
+4.2	छक्के	NN	<fs af='छक्का,n,m,pl,3,d,0,0' name='छक्के'>|<fs af='छक्का,n,m,sg,3,o,0,0'>
+4.3	से	PSP	<fs af='से,v,any,any,any,,0,0' name='से'>|<fs af='से,psp,,,,,,'>|<fs af='सा,psp,m,sg,,o,का,kA'>|<fs af='सा,psp,m,pl,,d,का,kA'>|<fs af='सा,psp,m,pl,,o,का,kA'>
+	))
+5	((	VGNF	<fs name='VGNF' drel='nmod__k1inv:NP5'>
+5.1	सजी	VM	<fs af='सज,v,f,sg,any,,या,yA' name='सजी'>
+	))
+6	((	NP	<fs name='NP4' drel='r6:NP5'>
+6.1	55	QC	<fs af='55,num,,,,,,' name='55'>
+6.2	रन	NN	<fs af='रन,unk,,,,,,' name='रन'>
+6.3	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>|<fs af='का,psp,f,sg,,o,का,kA'>|<fs af='का,psp,f,pl,,d,का,kA'>|<fs af='का,psp,f,pl,,o,का,kA'>|<fs af='कर,v,f,sg,any,,या,yA'>
+	))
+7	((	NP	<fs name='NP5' drel='k2:VGF'>
+7.1	पारी	NN	<fs af='पारी,n,f,sg,3,d,0,0' name='पारी'>|<fs af='पारी,n,f,sg,3,o,0,0'>
+	))
+8	((	VGF	<fs name='VGF' voicetype='active' stype='declarative'>
+8.1	खेली	VM	<fs af='खेल,v,f,sg,any,,या,yA' name='खेली'>
+8.2	।	SYM	<fs af='&dot;,punc,,,,,,' name='।'>
+	))
+</Sentence>
+
+</text>
+</tb>
+</body>
+</document>

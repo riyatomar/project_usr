@@ -41,7 +41,7 @@ def process_file(input_file, output_file):
             parts = line.split('+')
             if len(parts) > 1:
                 value_after_plus = parts[1].split('_')[0]
-                if value_after_plus in {'ho', 'kara', 'le', 'xe', 'laga', 'lagA', 'dAla', 'raha', 'karanA'}:
+                if value_after_plus in {'ho', 'kara', 'le', 'xe', 'laga', 'lagA', 'dAla', 'raha', 'karanA', 'raKa', 'xenA', 'A', 'honA', 'lenA', 'laganA', 'lagAnA', 'dAlanA', 'rahanA', 'rakanA', 'kIjie', 'kA'}:
                     try:
                         cp_part = parts[1].strip('').split('\t')
                         spk_info = parts[1].strip('').split('\t')[6]
@@ -75,7 +75,7 @@ def process_files_in_folder(input_folder, output_folder):
         except Exception as e:
             print(f"Skipping file {filename} due to an error: {e}")
 
-input_folder = '/home/riya/project_usr/11stnd_vertical'
+input_folder = '/home/riya/project_usr/vertical/25_seg'
 output_folder = '/home/riya/project_usr/cp_outputs'
 # input_folder = '/home/riya/project_usr/input'
 # output_folder = '/home/riya/project_usr/output'

@@ -1,6 +1,6 @@
 # Define file paths
-geo_file_path = 'geo_file.txt'  # Path to the first file
-second_file_path = 'second_file.txt'  # Path to the second file
+geo_file_path = '12_pof_cn_filtered_data.txt'  # Path to the first file
+second_file_path = '12_pof_cn_filtered_data1.txt'  # Path to the second file
 output_file_path = 'output_file.txt'  # Path to the output file
 
 # Function to read the content of a file
