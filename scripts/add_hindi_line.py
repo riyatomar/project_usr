@@ -14,7 +14,8 @@ usr_text = ''.join(usrfr)
 
 # Extract partial matches of <sent_id> tags
 matches = re.findall(r'<sent_id=(.*?)>', usr_text)
-extracted_ids = [match[0:17] for match in matches]
+extracted_ids = [match[0:18] for match in matches]
+# print(extracted_ids)
 
 # Keep track of processed IDs
 processed_ids = set()

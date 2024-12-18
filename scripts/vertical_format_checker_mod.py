@@ -1,6 +1,4 @@
-import os
-import sys
-import re
+import os, sys, re
 
 def first_line_starts_with_sent_id(file_path):
     with open(file_path, 'r', encoding="utf-8") as file:
@@ -15,8 +13,6 @@ def last_line_ends_with_sent_id(file_path, const_list):
             prev_line = last_line
             last_line = line.strip()
         if prev_line and last_line.endswith("</sent_id>"):
-            # for keyword in const_list:
-            #     if prev_line.startswith("*" + keyword):
             return True
         return False
 
@@ -59,6 +55,11 @@ def check_8_columns_after_second_line(file_path, skip_keywords, pronoun_list, co
                     if not line_content.startswith("$"):
                         print(f"{file_path} \t Pronoun {columns[0]} should start with '$'.", file=output_file)
 
+                if columns[0] == "$wyax":
+                    if len(columns) < 7 or columns[6] not in ["proximal", "distal"]:
+                        print(f"{file_path} \t Row with '$wyax' should have 'proximal' or 'distal' in column[6].", file=output_file)
+
+
                 if all(column != '-' for column in [columns[0]]):
                     if len(columns) != 9:
                         print(f"{file_path} \t Row starting with {columns[0]} concept, does not contain 9 columns information.", file=output_file)
@@ -74,6 +75,19 @@ def check_8_columns_after_second_line(file_path, skip_keywords, pronoun_list, co
 
     except Exception as e:
         print(f"Error reading {file_path}: {e}", file=output_file)
+
+def remove_double_hash_lines(file_path):
+    try:
+        with open(file_path, 'r', encoding="utf-8") as file:
+            lines = file.readlines()
+
+        # Write back lines that do not contain '##'
+        with open(file_path, 'w', encoding="utf-8") as file:
+            for line in lines:
+                if '##' not in line:
+                    file.write(line)
+    except Exception as e:
+        print(f"Error cleaning file {file_path}: {e}")
 
 def process_files(folder_path, output_file_path, skip_keywords, pronoun_list, const_list):
     with open(output_file_path, 'w', encoding="utf-8") as output_file:
@@ -107,6 +121,9 @@ def process_files(folder_path, output_file_path, skip_keywords, pronoun_list, co
                         print(f"Error reading {filename}: {e}", file=output_file)
         else:
             print(f"The folder '{folder_path}' does not exist or is not a directory.", file=output_file)
+
+    # Remove lines containing '##' from the output file
+    remove_double_hash_lines(output_file_path)
 
 def sort_lines_by_first_column(input_file_path, output_file_path):
     try:
