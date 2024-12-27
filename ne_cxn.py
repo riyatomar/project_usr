@@ -154,6 +154,6 @@ def process_files(input_folder, output_folder):
                 output_file.writelines(modified_lines)
 
 # Replace 'input_folder_path' and 'output_folder_path' with actual folder paths
-input_folder_path = '7_7/'
-output_folder_path = '7_7_ne/'
+input_folder_path = '12/'
+output_folder_path = '12_ne/'
 process_files(input_folder_path, output_folder_path)
