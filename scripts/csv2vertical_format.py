@@ -14,6 +14,24 @@ os.makedirs(output_folder, exist_ok=True)
 # List all files in the input folder
 input_files = [f for f in os.listdir(input_folder) if os.path.isfile(os.path.join(input_folder, f))]
 
+# Define the skip keywords
+skip_keywords = [
+    "affirmative",
+    "negative",
+    "yn_interrogative",
+    "interrogative",
+    "imperative",
+    "pass_affirmative",
+    "pass_negative",
+    "pass_interrogative",
+    "pass_yn_interrogative",
+    "fragment",
+    "title",
+    "heading",
+    "term",
+    "sent_id"
+]
+
 for input_file in input_files:
     # Construct input and output file paths
     input_file_path = os.path.join(input_folder, input_file)
@@ -25,37 +43,37 @@ for input_file in input_files:
     lines = input_text.strip().split('\n')
     parsed_rows = []
 
-    transposed_data = [[] for _ in range(len(lines))]
+    transposed_data = []
 
     try:
         with open(output_file_path, 'w', encoding='utf-8') as output_file:
-            output_file.write(lines[0] + '\n')
+            # Write the first two lines as-is
+            output_file.write(lines[0] + '\n' + lines[1] + '\n')
 
-            # Process and write the first 9 lines (or fewer if there are fewer lines)
-            for i, line in enumerate(lines[1:9], start=1):
-                values = line.split(',')
-                values = [value.strip() if value else "-" for value in values]
-                parsed_rows.append(values)
+            # Process lines to segregate rows for transposition and skipped lines
+            skipped_lines = []  # Store lines with skip keywords
+            for line in lines[2:]:
+                if any(keyword in line for keyword in skip_keywords):
+                    skipped_lines.append(line)
+                else:
+                    values = line.split(',')
+                    values = [value.strip() if value else "-" for value in values]
+                    parsed_rows.append(values)
 
-                # Transpose the values into the appropriate lists
-                for j, value in enumerate(values):
-                    if len(transposed_data) <= j:
-                        transposed_data.append([])  # Add a new list if needed
-                    transposed_data[j].append(value)
+            # Transpose the collected rows
+            for col_idx in range(len(parsed_rows[0])):
+                transposed_row = [row[col_idx] if col_idx < len(row) else "-" for row in parsed_rows]
+                transposed_data.append(transposed_row)
 
-            # Remove empty rows from transposed data
-            transposed_data = [row for row in transposed_data if any(row)]
-
-            # Write the transposed data to the output file
+            # Write transposed data to the output file
             for row in transposed_data:
-                output = "\t".join(row)
-                output_file.write(output + '\n')
+                output_file.write("\t".join(row) + '\n')
 
-            # Write the remaining lines after processing the first 9 (or fewer) lines
-            for line in lines[1 + len(parsed_rows):]:
+            # Write the skipped lines after the transposed data
+            for line in skipped_lines:
                 output_file.write(line + '\n')
 
-    except IndexError:
-        # Handle the IndexError by skipping the current file and continue to the next file
-        print(f"Error processing file {input_file}")
+    except Exception as e:
+        # Handle unexpected errors gracefully
+        print(f"Error processing file {input_file}: {e}")
         continue
