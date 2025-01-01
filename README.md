@@ -36,22 +36,13 @@
     - `<input_usr_file>`: Text file containing USRs.
     - `<output_file>`: File to store the output.
 
-## CSV USR Segregator
-- Segregates the CSV format USRs into individual files with ID as their filename.
+## USR Segregator
+- Segregates the CSV or Vertical format USRs into individual files with ID as their filename.
 - Command:
     ```
-    python3 scripts/csv_usr_segregator.py <input_usr_file> <output_folder>
+    python3 scripts/usr_segregator.py <input_usr_file> <output_folder>
     ```
-    - `<input_usr_file>`: Text file containing CSV format USRs.
-    - `<output_folder>`: Folder to store the individual USR files after segregation.
-
-## Vertical USR Segregator
-- Segregates the vertical format USRs into individual files with ID as their filename.
-- Command:
-    ```
-    python3 scripts/vertical_usr_segregator.py <input_usr_file> <output_folder>
-    ```
-    - `<input_usr_file>`: Text file containing vertical format USRs.
+    - `<input_usr_file>`: Text file containing CSV or Vertical format USRs.
     - `<output_folder>`: Folder to store the individual USR files after segregation.
 
 ## Merger
