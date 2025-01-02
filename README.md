@@ -1,3 +1,11 @@
+1. Clone the Repository using following command on terminal:
+    - git clone https://github.com/riyatomar/project_usr.git
+
+2. Go inside the Cloned Directory using following Command:
+    - cd project_usr
+
+3. Now run the scripts according to your requirements
+
 # Usage Instructions
 
 ## Adding Hindi Line
@@ -52,7 +60,7 @@
     python3 scripts/merger.py <input_folder> <output_file>
     ```
     - `<input_folder>`: Folder containing individual USR files.
-    - `<output_file>`: Compiled USR output file.
+    - `<output_file>`: Compiled(Merged) USR output file.
 
 ## CSV to Vertical Format
 - Converts CSV format USRs into Vertical Format USRs.
