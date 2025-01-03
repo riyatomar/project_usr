@@ -62,7 +62,7 @@ def check_8_columns_after_second_line(file_path, skip_keywords, pronoun_list, co
 
                 if all(column != '-' for column in [columns[0]]):
                     if len(columns) != 9:
-                        print(f"{file_path} \t Row starting with {columns[0]} concept, does not contain 9 columns information.", file=output_file)
+                        print(f"{file_path} \t Row having concept {columns[0]} with index {columns[1]}, does not contain 9 columns information.", file=output_file)
                     column5_parts = columns[4].split(":")
                     if len(column5_parts) == 2 and column5_parts[0].isdigit() and column5_parts[1].isalnum():
                         pass 
