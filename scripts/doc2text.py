@@ -29,7 +29,7 @@ def convert_folder_of_docx(input_folder, output_folder):
             docx_to_txt(docx_file, output_folder)
 
 # Set the paths
-input_folder = 'usg_workshop_5k_new_cnx_shared'
+input_folder = '/home/lc4eu/LC/project_usr/usg_workshop_5k_complete_new_cnx_usr'
 output_folder = '5k_data'  # Replace with the folder where you want to save .txt files
 
 # Convert all .docx files in the input folder to .txt
