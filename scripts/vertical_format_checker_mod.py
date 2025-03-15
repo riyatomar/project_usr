@@ -64,7 +64,10 @@ def check_8_columns_after_second_line(file_path, skip_keywords, pronoun_list, co
                     if len(columns) != 9:
                         print(f"{file_path} \t Row having concept {columns[0]} with index {columns[1]}, does not contain 9 columns information.", file=output_file)
                     column5_parts = columns[4].split(":")
-                    if len(column5_parts) == 2 and column5_parts[0].isdigit() and column5_parts[1].isalnum():
+                    column4, column8 = columns[4].strip(), columns[8].strip()
+                    if '-' not in column4 and '-' not in column8:
+                        print(f"{file_path} \t Row starting with {columns[0]} concept has both dependency and cnx info.", file=output_file)
+                    elif len(column5_parts) == 2 and column5_parts[0].isdigit() and column5_parts[1].isalnum():
                         pass 
                     elif '-' in column5_parts and columns[8] != '-' and re.match(r'^\d+:.+', columns[8]):
                         pass
