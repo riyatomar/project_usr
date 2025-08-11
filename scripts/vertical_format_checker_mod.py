@@ -3,7 +3,7 @@ import os, sys, re
 def first_line_starts_with_sent_id(file_path):
     with open(file_path, 'r', encoding="utf-8") as file:
         first_line = file.readline().strip()
-        return first_line.startswith("<sent_id=")
+        return first_line.startswith("<segment_id=")
 
 def last_line_ends_with_sent_id(file_path, const_list):
     with open(file_path, 'r', encoding="utf-8") as file:
@@ -12,7 +12,7 @@ def last_line_ends_with_sent_id(file_path, const_list):
         for line in file:
             prev_line = last_line
             last_line = line.strip()
-        if prev_line and last_line.endswith("</sent_id>"):
+        if prev_line and last_line.endswith("</segment_id>"):
             return True
         return False
 
@@ -72,9 +72,9 @@ def check_8_columns_after_second_line(file_path, skip_keywords, pronoun_list, co
                     elif '-' in column5_parts and columns[8] != '-' and re.match(r'^\d+:.+', columns[8]):
                         pass
                     else:
-                        print(f"{file_path} \t Row starting with {columns[0]} concept has inccorect info in dependency or cnx column.", file=output_file)
+                        print(f"{file_path} \t Row starting with {columns[0]} concept has incorect info in dependency or cnx column.", file=output_file)
                 else:
-                    print(f"{file_path} \t Inccorect info '{columns[0]}' in Column 1.", file=output_file)
+                    print(f"{file_path} \t Incorect info '{columns[0]}' in Column 1.", file=output_file)
 
     except Exception as e:
         print(f"Error reading {file_path}: {e}", file=output_file)
