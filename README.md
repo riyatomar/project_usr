@@ -35,15 +35,6 @@
     ```
     - `<input_usr_folder>`: Folder containing individual USR file 
 
-## Adding Special Symbol
-- Adds special symbols like "@", "%", "^" etc. in USRs.
-- Command:
-    ```
-    python3 scripts/add_special_symbol.py <input_usr_file> <output_file>
-    ```
-    - `<input_usr_file>`: Text file containing USRs.
-    - `<output_file>`: File to store the output.
-
 ## USR Segregator
 - Segregates the CSV or Vertical format USRs into individual files with ID as their filename.
 - Command:
