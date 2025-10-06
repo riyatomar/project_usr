@@ -24,14 +24,14 @@ try:
         input_text = file.read()
 
     # Use regular expressions to find and extract the desired sections
-    pattern = r'<sent_id=(.*?)</sent_id>'
+    pattern = r'<segment_id=(.*?)</segment_id>'
     matches = re.finditer(pattern, input_text, re.DOTALL)
 
     for i, match in enumerate(matches):
         extracted_text = match.group(0)
 
         # Extract the text between "=" and ">"
-        filename_match = re.search(r'<sent_id=(.*?)>', extracted_text)
+        filename_match = re.search(r'<segment_id=(.*?)>', extracted_text)
         if filename_match:
             filename = filename_match.group(1)
         else:
