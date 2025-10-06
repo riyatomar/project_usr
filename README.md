@@ -86,3 +86,10 @@
     ```
     python3 scripts/possible_concept_program.py
     ```
+
+## Kappa and IAA 
+- Calculate the IAA percentage and Kappa
+- Command:
+    ```
+    python3 IAA_kappa.py usr_file1 usr_file2
+    ```
